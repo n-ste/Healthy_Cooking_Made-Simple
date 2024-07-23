@@ -1,6 +1,7 @@
 * {
     margin: 0; 
     padding: 0;
+    color: #ffffff;
 }
 body {
     display: flex;
@@ -10,7 +11,13 @@ header {
     background-color: #B1CC74;
     height: 100px;
 }
-
+nav ul {
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    color: #ffffff;
+}
 main {
     background-color: #E8FCC2;
     height: 100vh;
