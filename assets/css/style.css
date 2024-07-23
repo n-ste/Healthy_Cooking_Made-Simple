@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Montserrat&display=swap');
+
 * {
     margin: 0; 
     padding: 0;
@@ -7,12 +9,19 @@ body {
     display: flex;
     flex-direction: column;
 }
+body h1, body h2, body li {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 header {
     background-color: #B1CC74;
-    height: 100px;
+    height: 150px;
+    padding: 50px;
 }
 nav ul {
     list-style-type: none;
+    text-align: center;
 }
 li a {
     text-decoration: none;
@@ -21,9 +30,19 @@ li a {
 main {
     background-color: #E8FCC2;
     height: 100vh;
+    padding: 50px;
 }
+section h2 {
+    background-color: #545F66;
+    padding: 15px;
+}
+section p {
+    background-color: #829399;
+    padding: 15px;
 
+}
 footer {
     background-color: #B1CC74;
     height: 75px;
+    padding: 50px;
 }
