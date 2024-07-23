@@ -2,15 +2,21 @@
     margin: 0; 
     padding: 0;
 }
-
+body {
+    display: flex;
+    flex-direction: column;
+}
 header {
     background-color: #B1CC74;
+    height: 100px;
 }
 
 main {
     background-color: #E8FCC2;
+    height: 100vh;
 }
 
 footer {
     background-color: #B1CC74;
+    height: 75px;
 }
