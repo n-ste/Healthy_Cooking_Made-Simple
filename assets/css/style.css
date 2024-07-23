@@ -21,12 +21,13 @@ body p {
 }
 header {
     background-color: #B1CC74;
-    height: 150px;
+    height: 250px;
     padding: 50px;
 }
 nav ul {
     list-style-type: none;
     text-align: center;
+    margin-top: 30px;
 }
 li a {
     text-decoration: none;
