@@ -14,6 +14,11 @@ body h1, body h2, body li {
     font-weight: 700;
     text-transform: uppercase;
 }
+
+body p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 35px;
+}
 header {
     background-color: #B1CC74;
     height: 150px;
