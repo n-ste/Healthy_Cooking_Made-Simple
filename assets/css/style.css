@@ -8,6 +8,7 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 3;
 }
 body h1, body h2, body li {
     font-family: 'Kanit', sans-serif;
@@ -22,8 +23,10 @@ body p {
 header {
     background-color: #B1CC74;
     height: 250px;
-    padding: 50px;
+    padding: 35px;
+    flex: 1;
 }
+
 nav ul {
     list-style-type: none;
     text-align: center;
@@ -37,6 +40,7 @@ main {
     background-color: #E8FCC2;
     height: 100vh;
     padding: 50px;
+    flex: 2;
 }
 section, aside {
     margin-bottom: 50px;
@@ -54,4 +58,5 @@ footer {
     background-color: #B1CC74;
     height: 75px;
     padding: 25px;
+    flex: 3;
 }
