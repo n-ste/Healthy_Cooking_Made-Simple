@@ -38,11 +38,14 @@ main {
     height: 100vh;
     padding: 50px;
 }
-section h2 {
+section, aside {
+    margin-bottom: 50px;
+}
+section h2, aside h2 {
     background-color: #545F66;
     padding: 15px;
 }
-section p {
+section p, aside p {
     background-color: #829399;
     padding: 15px;
 
