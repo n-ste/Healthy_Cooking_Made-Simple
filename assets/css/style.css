@@ -23,18 +23,48 @@ body p {
 header {
     background-color: #B1CC74;
     height: 250px;
-    padding: 35px;
     flex: 1;
+    box-shadow: #000000 2px 1px 10px;
 }
-
+header h1 {
+    padding: 35px;
+}
+nav {
+    width: 100%;
+    background-color: #B1CC74;    
+}
 nav ul {
     list-style-type: none;
     text-align: center;
     margin-top: 30px;
 }
+nav li {
+    margin: 40px;
+}
+
 li a {
     text-decoration: none;
     color: #ffffff;
+}
+nav a {
+    background-color: #B1CC74;
+    color: #ffffff;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 5px;
+    box-shadow: #000000 0px 1px 10px;
+}
+nav a:hover{
+    background-color: #ffffff;
+    color: #B1CC74;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 5px;
+    box-shadow: #000000 0px 1px 10px;
+}
+.active {
+    background-color: #ffffff;
+    color: #B1CC74;
 }
 main {
     background-color: #E8FCC2;
