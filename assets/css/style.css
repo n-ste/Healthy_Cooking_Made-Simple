@@ -22,16 +22,18 @@ body p {
 }
 header {
     background-color: #B1CC74;
-    height: 250px;
+    height: 150px;
     flex: 1;
-    box-shadow: #000000 2px 1px 10px;
 }
 header h1 {
     padding: 35px;
 }
 nav {
+    position: absolute;
     width: 100%;
-    background-color: #B1CC74;    
+    left: 0;
+    background-color: #B1CC74; 
+    display: none;
 }
 nav ul {
     list-style-type: none;
