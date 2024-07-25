@@ -111,6 +111,11 @@ section h2, aside h2 {
     border-top-right-radius: 10px;
     border-bottom: 3px solid #D0F4EA;
 }
+.resources {
+    background-color: #B1CC74;
+    border-radius: 10px;
+    border: 3px solid #545F66;
+}
 .newsletter {
     text-align: center;
 }
