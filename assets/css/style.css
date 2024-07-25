@@ -250,9 +250,15 @@ footer {
     flex: 4;
     border-top: 3px solid #545F66;
     height: 150px;
+    padding: 40px;
 }
-footer h2 {
-    margin: 52px 15px;
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer li {
+    font-size: 2em;
 }
 /* Responsive Layout for Tablets */
 @media screen and (min-width: 768px) {
@@ -260,7 +266,6 @@ footer h2 {
         display: flex;
         flex-wrap: wrap;
     }
-
     nav {
         display: flex;
         justify-content: flex-end;
