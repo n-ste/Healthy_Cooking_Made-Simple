@@ -252,12 +252,12 @@ footer {
     height: 150px;
     padding: 40px;
 }
-footer ul {
+footer #social-media-links {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
 }
-footer li {
+footer .social-media {
     font-size: 2em;
 }
 /* Responsive Layout for Tablets */
