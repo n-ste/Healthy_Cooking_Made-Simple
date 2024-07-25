@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 3;
+    background-color: #B1CC74;
 }
 body h1, body h2, body li {
     font-family: 'Kanit', sans-serif;
@@ -23,7 +24,7 @@ body p {
 /* Header Styles */
 header {
     background-color: #B1CC74;
-    height: 150px;
+    min-height: 270px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -44,7 +45,7 @@ nav {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 220px;
+    top: 270px;
     display: none;
     flex: 2;
 }
@@ -87,10 +88,13 @@ nav a:hover{
 }
 /* Main Body Styles */
 main {
-    background-color: #E8FCC2;
     height: 100vh;
-    padding: 50px;
     flex: 3;
+}
+
+.main-content {
+    background-color: #E8FCC2;
+    padding: 50px;
 }
 section, aside {
     margin-bottom: 50px;
