@@ -75,41 +75,47 @@
                 <section class="newsletter-form">
                     <h2 id="sign-up-heading">Sign up to our newsletter!</h2>
                     <form method="POST" action="https://formdump.codeinstitute.net" id="newsletter-form">
-                            <div class="newsletter">
-                                <div class="newsletter-input">
-                            <label class="sign-up-label">First Name:</label>
-                            <input type="text" class="bars" id="first-name" name="first-name">
-                            <br>
-                            <label class="sign-up-label">Surname:</label>
-                            <input type="text" class="bars" id="surname" name="surname">
-                            <br>
-                            <label class="sign-up-label">Email Address:</label>
-                            <input type="email" class="bars" id="email" name="email">
+                        <div class="newsletter">
+                            <div class="newsletter-input">
+                                <table>
+                                    <tr>
+                                        <td><label class="sign-up-label">Foreame:</label></td>
+                                        <td><input type="text" class="bars" id="first-name" name="first-name"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label class="sign-up-label">Surname:</label></td>
+                                        <td><input type="text" class="bars" id="surname" name="surname"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label class="sign-up-label">Email:</label></td>
+                                        <td><input type="email" class="bars" id="email" name="email"></td>
+                                    </tr>
+                                </table>
                             </div>
-                            <br>
+                         
                             <div class="newsletter-radio">
-                                <label>Breakfast recipies</label>
-                                <div id="breakfast">
-                                    <input type="radio" id="breakfast" name="recipe-preference" required>
-                                </div>
-                                <br>
-                                <label>Lunch recipies</label>
-                                <div id="lunch">
-                                    <input type="radio" id="lunch" name="recipe-preference" required>
-                                </div>
-                                <br>
-                                <label>Dinner recipies</label>
-                                <div id="dinner">
-                                    <input type="radio" id="dinner" name="recipe-preference" required>
-                                </div>
-                                <br>
-                                <label>All</label>
-                                <div id="all">
-                                    <input type="radio" id="all" name="recipe-preference" required>
-                                </div>
-                                <br>
-                                <input type="submit" class="newsletter-sign-up" value="Sign Up!">
+                                <table>
+                                    <tr>
+                                        <td><label>Breakfast recipies</label></td>
+                                        <td><input type="radio" id="breakfast" name="recipe-preference" required></td>
+                                    </tr>
+                                    <tr>
+                                        <td> <label>Lunch recipies</label></td>
+                                        <td><input type="radio" id="lunch" name="recipe-preference" required></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label>Dinner recipies</label></td>
+                                        <td><input type="radio" id="dinner" name="recipe-preference" required></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label>All</label></td>
+                                        <td><input type="radio" id="all" name="recipe-preference" required></td>
+                                    </tr>
+                                </table>
                             </div>
+                        </div>
+                        <div class="newsletter-button">
+                            <input type="submit" class="newsletter-sign-up" value="Sign Up!">
                         </div>
                     </form>
 
@@ -119,9 +125,12 @@
     </main>
     <footer>
         <ul id="social-media-links">
-            <li class="social-media"><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-            <li class="social-media"><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li class="social-media"><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="social-media"><a href="https://www.instagram.com" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+            <li class="social-media"><a href="https://www.twitter.com" target="_blank"><i
+                        class="fa-brands fa-x-twitter"></i></a></li>
+            <li class="social-media"><a href="https://www.facebook.com" target="_blank"><i
+                        class="fa-brands fa-facebook"></i></a></li>
         </ul>
     </footer>
 </body>

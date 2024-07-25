@@ -98,7 +98,7 @@ main {
 
 .main-content {
     background-color: #E8FCC2;
-    padding: 50px;
+    padding: 10px;
 }
 
 section, aside {
@@ -188,8 +188,7 @@ aside li {
 }
 /* Newsletter Signup Form */
 .newsletter {
-    text-align: start;
-    padding: 40px;
+    padding: 30px 0;
 }
 #sign-up-heading {
     padding: 0;
@@ -216,10 +215,6 @@ aside li {
 }
 .newsletter-form {
     display: flex;
-}
-
-.newsletter-form
-{
     color: #000000;
     background-color: #829399;
     border-radius: 10px;
@@ -232,18 +227,45 @@ aside li {
     margin: 10px 20px;
 }
 .newsletter-radio {
+    width: 100%;
     color: #000000;
-    padding: 10px;
-    padding: 15px;
+    margin: 10px 20px;
+}
+
+.newsletter-radio table {
+    margin: 40px 20%;
 }
 .newsletter-sign-up {
-    padding: 10px;
+    width: 50%;
     color: #000000;
+}
+.newsletter-button {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding: 10px;
+    margin: 10px;
 }
 .bars {
     width: 100px;
     color: #000000;
 }
+input[type="text"]
+{
+    font-size:2rem;
+    margin: 5px 0;
+}
+input[type="email"]
+{
+    font-size:2rem;
+    margin: 5px 0;
+}
+
+input[type="radio"]
+{
+    height: 2rem;
+}
+
 /* Footer Styles */
 footer {
     background-color: #B1CC74;
@@ -307,6 +329,7 @@ footer .social-media {
     .main-content {
         display: flex;
         flex-direction: column;
+        padding: 50px;
     }
 
     .aside-columns {
@@ -343,6 +366,12 @@ footer .social-media {
         position: relative;
         padding: 125px 0 0 0;
         top: 360px;
+    }
+
+    .newsletter-input, .newsletter-radio {
+        width: 100%;
+        margin: 0 50%;
+
     }
 }
 
