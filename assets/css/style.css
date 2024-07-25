@@ -30,11 +30,13 @@ header {
     flex: 1;
 }
 header h1 {
-    padding: 35px;
+    padding: 0 20px 20px 20px;
 }
 
-header li {
-    top: 0;
+#title-logo {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 5px;
 }
 /* Nav Styles*/
 nav {
@@ -42,7 +44,7 @@ nav {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 270px;
+    top: 269px;
     display: none;
     flex: 2;
 }
