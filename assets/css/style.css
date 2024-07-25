@@ -123,30 +123,33 @@ section p, aside p {
 /* Hero Image */
 .hero-image {
     width: 100%;
-    height: 500px;
+    height: 700px;
     margin: 0;
     background: url(../images/top-view-table-full-delicious-food-composition.jpg) no-repeat center center/cover;
     z-index: -1;
 }
 .cover-text {
-    position: absolute;
-    margin: 0 1px;
-    top: 62%;
+    width: 90%;
+    left: 5%;
+    position: relative;
+    padding: 125px 0 0 0;
+    top: 200px;
+
 }
 .cover-text h2 {
-    padding: 15px;
+    padding: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: rgba(84, 95, 102, 0.8);
-    margin: 0 50px;
-    border-bottom: 3px solid rgba(208, 244, 234, 0.8);
+    background-color: rgba(84, 95, 102, 0.9);
+    margin: 0;
+    border-bottom: 3px solid rgba(208, 244, 234, 0.9);
 }
 .cover-text p {
-    padding: 15px;
+    padding: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: rgba(130, 147, 153, 0.8);
-    margin: 0 50px;
+    background-color: rgba(130, 147, 153, 0.9);
+    margin: 0;
 }
 /* Footer Styles */
 footer {
@@ -195,9 +198,11 @@ footer h2 {
     }
 
     .cover-text {
-        position: absolute;
-        margin: 0 1px;
-        top: 50%;
+        width: 90%;
+        left: 5%;
+        position: relative;
+        padding: 125px 0 0 0;
+        top: 350px;
     }
 }
 /* Responsive Layout for Laptops */
@@ -206,16 +211,23 @@ footer h2 {
         margin: 0;
         padding: 0;
     }
-
     .cover-text {
-        position: absolute;
-        margin: 0 1px;
-        top: 72%;
+        width: 80%;
+        left: 10%;
+        position: relative;
+        padding: 125px 0 0 0;
+        top: 360px;
     }
 }
 
 /* Responsive Layout for Desktops */
 @media screen and (min-width: 1200px) {
-   
+    .cover-text {
+        width: 70%;
+        left: 15%;
+        position: relative;
+        padding: 125px 0 0 0;
+        top: 360px;
+    }
     
 }
