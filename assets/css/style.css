@@ -12,7 +12,7 @@ body {
     flex: 3;
     background-color: #B1CC74;
 }
-body h1, body h2, body li {
+body h1, body h2, nav li {
     font-family: 'Kanit', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -125,6 +125,20 @@ section p, aside p {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+.aside-columns ul {
+    width: 100%;
+    background-color: #829399;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+aside li {
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 15px;
+    margin: 0 30px;
+}
 /* Hero Image */
 .hero-image {
     width: 100%;
@@ -156,11 +170,19 @@ section p, aside p {
     background-color: rgba(130, 147, 153, 0.9);
     margin: 0;
 }
+.top-tips-image {
+    width: 100%;
+}
+.aside-image img {
+    width: 100%;
+    border-radius: 10px;
+}
 /* Footer Styles */
 footer {
     background-color: #B1CC74;
     flex: 4;
     border-top: 3px solid #545F66;
+    height: 150px;
 }
 footer h2 {
     margin: 52px 15px;
@@ -209,6 +231,32 @@ footer h2 {
         padding: 125px 0 0 0;
         top: 350px;
     }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aside-columns {
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+    }
+
+    .aside-columns ul {
+        background-color: #829399;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .essentials {
+        width: 50%;
+    }
+
+    .top-tips-image {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
 }
 /* Responsive Layout for Laptops */
 @media screen and (min-width: 992px) {
@@ -233,6 +281,10 @@ footer h2 {
         position: relative;
         padding: 125px 0 0 0;
         top: 360px;
+    }
+
+    footer {
+        height: 150px;
     }
     
 }
