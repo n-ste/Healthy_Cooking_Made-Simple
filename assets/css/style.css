@@ -111,7 +111,7 @@ section p, aside p {
 /* Footer Styles */
 footer {
     background-color: #B1CC74;
-    height: 75px;
+    margin: 40px 0;
     padding: 25px;
     flex: 4;
 }
