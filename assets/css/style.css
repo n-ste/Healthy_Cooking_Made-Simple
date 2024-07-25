@@ -29,6 +29,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     flex: 1;
+    border-bottom: 3px solid #545F66;
 }
 header h1 {
     padding: 0 20px 20px 20px;
@@ -48,6 +49,8 @@ nav {
     top: 270px;
     display: none;
     flex: 2;
+    border-bottom: 3px solid #545F66;
+
 }
 #nav-dropdown-toggle:checked~nav {
     display: block;
@@ -84,7 +87,7 @@ nav a:hover{
     background-color: #ffffff;
     color: #B1CC74;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
 }
 /* Main Body Styles */
 main {
@@ -96,17 +99,25 @@ main {
     background-color: #E8FCC2;
     padding: 50px;
 }
+
 section, aside {
     margin-bottom: 50px;
 }
 section h2, aside h2 {
     background-color: #545F66;
     padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 3px solid #D0F4EA;
+}
+.newsletter {
+    text-align: center;
 }
 section p, aside p {
     background-color: #829399;
     padding: 15px;
-
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 /* Footer Styles */
 footer {
@@ -123,11 +134,13 @@ footer {
     }
 
     nav {
-        display: block;
+        display: flex;
+        justify-content: flex-end;
         position: relative;
         width: fit-content;
         padding-right: 20px;
-        top: 0;
+        top: 0;        
+        border-bottom: 3px solid #B1CC74;
     }
     .navigation-bar {
         display: flex;
