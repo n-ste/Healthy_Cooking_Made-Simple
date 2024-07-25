@@ -122,9 +122,11 @@ section p, aside p {
 /* Footer Styles */
 footer {
     background-color: #B1CC74;
-    margin: 40px 0;
-    padding: 25px;
     flex: 4;
+    border-top: 3px solid #545F66;
+}
+footer h2 {
+    margin: 52px 15px;
 }
 /* Responsive Layout for Tablets */
 @media screen and (min-width: 768px) {
