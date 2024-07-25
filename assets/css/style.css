@@ -112,9 +112,9 @@ section h2, aside h2 {
     border-bottom: 3px solid #D0F4EA;
 }
 .resources {
-    background-color: #B1CC74;
+    background-color: #545F66;
     border-radius: 10px;
-    border: 3px solid #545F66;
+    border: 3px solid #B1CC74;
 }
 .newsletter {
     text-align: center;
@@ -130,6 +130,7 @@ section p, aside p {
     background-color: #829399;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    margin: 0;
 }
 aside li {
     font-family: 'Kanit', sans-serif;
@@ -170,13 +171,25 @@ aside li {
     background-color: rgba(130, 147, 153, 0.9);
     margin: 0;
 }
+/* Aside Section Styles */
 .top-tips-image {
     width: 100%;
 }
 .aside-image img {
-    width: 100%;
-    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
 }
+.resources-container {
+    background-color: #B1CC74;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+}
+
 /* Footer Styles */
 footer {
     background-color: #B1CC74;
