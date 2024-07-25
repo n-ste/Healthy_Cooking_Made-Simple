@@ -37,7 +37,7 @@
         </section>
         <div class="main-content" id="main-content">
             <div class="resources-container">
-                <section>
+                <section id="sec-resources">
                     <h2 class="resources">Resources</h2>
                 </section>
                 <div class="aside-columns">
@@ -72,13 +72,47 @@
                     </div>
                 </div>
 
-                <section>
-                    <h2 class="newsletter">Sign up to our newsletter!</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab, saepe vitae cum ut harum.
-                        Ipsa
-                        iste pariatur perferendis nulla! Pariatur, quas et. Commodi odit ab facere, incidunt modi
-                        soluta.
-                    </p>
+                <section class="newsletter-form">
+                    <h2 id="sign-up-heading">Sign up to our newsletter!</h2>
+                    <form method="POST" action="https://formdump.codeinstitute.net" id="newsletter-form">
+                            <div class="newsletter">
+                                <div class="newsletter-input">
+                            <label class="sign-up-label">First Name:</label>
+                            <input type="text" class="bars" id="first-name" name="first-name">
+                            <br>
+                            <label class="sign-up-label">Surname:</label>
+                            <input type="text" class="bars" id="surname" name="surname">
+                            <br>
+                            <label class="sign-up-label">Email Address:</label>
+                            <input type="email" class="bars" id="email" name="email">
+                            </div>
+                            <br>
+                            <div class="newsletter-radio">
+                                <label>Breakfast recipies</label>
+                                <div id="breakfast">
+                                    <input type="radio" id="breakfast" name="recipe-preference" required>
+                                </div>
+                                <br>
+                                <label>Lunch recipies</label>
+                                <div id="lunch">
+                                    <input type="radio" id="lunch" name="recipe-preference" required>
+                                </div>
+                                <br>
+                                <label>Dinner recipies</label>
+                                <div id="dinner">
+                                    <input type="radio" id="dinner" name="recipe-preference" required>
+                                </div>
+                                <br>
+                                <label>All</label>
+                                <div id="all">
+                                    <input type="radio" id="all" name="recipe-preference" required>
+                                </div>
+                                <br>
+                                <input type="submit" class="newsletter-sign-up" value="Sign Up!">
+                            </div>
+                        </div>
+                    </form>
+
                 </section>
             </div>
         </div>

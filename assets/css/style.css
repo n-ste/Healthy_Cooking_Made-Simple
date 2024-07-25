@@ -104,7 +104,7 @@ main {
 section, aside {
     margin-bottom: 50px;
 }
-section h2, aside h2 {
+#sec-resources h2, aside h2 {
     background-color: #545F66;
     padding: 15px;
     border-top-left-radius: 10px;
@@ -114,10 +114,6 @@ section h2, aside h2 {
 .resources {
     background-color: #545F66;
     border-radius: 10px;
-    border: 3px solid #B1CC74;
-}
-.newsletter {
-    text-align: center;
 }
 section p, aside p {
     background-color: #829399;
@@ -175,21 +171,79 @@ aside li {
 .top-tips-image {
     width: 100%;
 }
+.aside-image {
+    height: 50%;
+}
 .aside-image img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 55%;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
 }
 .resources-container {
-    background-color: #B1CC74;
-    padding: 25px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+    padding: 5px;
+}
+/* Newsletter Signup Form */
+.newsletter {
+    text-align: start;
+    padding: 40px;
+}
+#sign-up-heading {
+    padding: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px;
+    margin: -15px;
+    background-color: #545F66;
+    border-bottom: 3px solid #D0F4EA;
+}
+.sign-up-label {
+    margin: 10px;
+    padding: 15px;
+  
+}
+.newsletter-form {
+    display: wrap;
+    flex-direction: column;
+    padding: 15px;
+}
+#newsletter-form {
+    display: flex;
+    justify-items: baseline;
+}
+.newsletter-form {
+    display: flex;
 }
 
+.newsletter-form
+{
+    color: #000000;
+    background-color: #829399;
+    border-radius: 10px;
+}
+.newsletter-form > h2 {
+    width: 100%;
+}
+.newsletter-form input {
+    width: 100%;
+    margin: 10px 20px;
+}
+.newsletter-radio {
+    color: #000000;
+    padding: 10px;
+    padding: 15px;
+}
+.newsletter-sign-up {
+    padding: 10px;
+    color: #000000;
+}
+.bars {
+    width: 100px;
+    color: #000000;
+}
 /* Footer Styles */
 footer {
     background-color: #B1CC74;
@@ -263,6 +317,7 @@ footer h2 {
     }
     .essentials {
         width: 50%;
+        height: 50%;
     }
 
     .top-tips-image {
