@@ -36,7 +36,7 @@ header h1 {
 #title-logo {
     margin: 0;
     padding: 0;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 /* Nav Styles*/
 nav {
@@ -44,7 +44,7 @@ nav {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 269px;
+    top: 220px;
     display: none;
     flex: 2;
 }
@@ -74,9 +74,6 @@ li a {
     letter-spacing: 1px;
 }
 nav a {
-    
-    padding: 10px;
-    margin: 40px;
     margin-bottom: 50px;
 }
 nav a:hover{
@@ -86,6 +83,7 @@ nav a:hover{
     background-color: #ffffff;
     color: #B1CC74;
     border-radius: 5px;
+    padding: 5px;
 }
 /* Main Body Styles */
 main {
@@ -155,5 +153,8 @@ footer {
 
 /* Responsive Layout for Desktops */
 @media screen and (min-width: 1200px) {
-
+    nav a {
+        margin: 0;
+        padding: 0;
+    }
 }
