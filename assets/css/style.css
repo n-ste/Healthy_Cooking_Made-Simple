@@ -32,12 +32,17 @@ header {
 header h1 {
     padding: 35px;
 }
+
+header li {
+    top: 0;
+}
 /* Nav Styles*/
 nav {
+    background-color: #B1CC74;
     position: absolute;
     width: 100%;
     left: 0;
-    top: 242px;
+    top: 270px;
     display: none;
     flex: 2;
 }
@@ -56,7 +61,9 @@ nav ul {
     text-align: center;
     margin-top: 30px;
 }
-
+nav li {
+    margin-bottom: 20px;
+}
 li a {
     text-decoration: none;
     color: #ffffff;
@@ -65,8 +72,10 @@ li a {
     letter-spacing: 1px;
 }
 nav a {
+    
     padding: 10px;
     margin: 40px;
+    margin-bottom: 50px;
 }
 nav a:hover{
     border-bottom: 1px solid #ffffff;
@@ -74,6 +83,7 @@ nav a:hover{
 .active {
     background-color: #ffffff;
     color: #B1CC74;
+    border-radius: 5px;
 }
 /* Main Body Styles */
 main {
@@ -108,9 +118,6 @@ footer {
         flex-wrap: wrap;
     }
 
-    .active {
-        border-radius: 5px;
-    }
     nav {
         display: block;
         position: relative;
