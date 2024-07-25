@@ -148,13 +148,13 @@ footer {
 }
 /* Responsive Layout for Laptops */
 @media screen and (min-width: 992px) {
-   
-}
-
-/* Responsive Layout for Desktops */
-@media screen and (min-width: 1200px) {
     nav a {
         margin: 0;
         padding: 0;
     }
+}
+
+/* Responsive Layout for Desktops */
+@media screen and (min-width: 1200px) {
+    
 }
