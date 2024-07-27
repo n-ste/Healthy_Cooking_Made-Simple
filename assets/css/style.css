@@ -267,14 +267,14 @@ input[type="radio"]
     display: none;
 }
 /* Breakfast Recipies Styles */
-#breakfast-row-one h3 {
+#breakfast-row-one h3, #breakfast-row-two h3, #breakfast-row-three h3 {
     background-color: #829399;
     font-family: 'Kanit', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 5px 15px;
 }
-.banana-pancakes li, .bacon-and-eggs li {
+.banana-pancakes li, .bacon-and-eggs li, .overnight-oats li, .breakfast-frittata li, .blueberry-ricotta li, .breakfast-quesadillas li {
     text-transform: none;
 }
 /* Breakfast Hero Images */
