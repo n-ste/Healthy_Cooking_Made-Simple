@@ -158,23 +158,17 @@ aside li {
     margin: 0;
 }
 /* Aside Section Styles */
-.top-tips-image {
-    width: 100%;
-}
-.aside-image {
-    height: 50%;
-}
 .aside-image img {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+    width: 300px;
 }
 .resources-container {
     padding: 5px;
+}
+.resources, .essentials, .aside-image img, .top-tips, .newsletter-form {
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
 }
 /* Newsletter Signup Form */
 .newsletter {
