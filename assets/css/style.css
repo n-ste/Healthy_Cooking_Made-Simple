@@ -195,6 +195,7 @@ aside li {
         display: flex;
         flex-direction: column;
 }
+
 #sign-up-heading {
     background-color: #545F66;
     padding: 15px;
@@ -202,10 +203,12 @@ aside li {
     border-top-right-radius: 10px;
     border-bottom: 3px solid #D0F4EA;
 }
-
 .newsletter-input {
-    text-align: center;
     align-items: center;
+    margin-bottom: 30px;
+}
+.newsletter-radio {
+    margin-bottom: 30px;
 }
 .bars {
     margin: 5px;
@@ -319,6 +322,10 @@ footer .social-media {
         display: flex;
         flex-direction: column;
     }
+
+    .newsletter {
+        padding: 20px 33%;
+}
 }
 /* Responsive Layout for Laptops */
 @media screen and (min-width: 992px) {
@@ -348,5 +355,7 @@ footer .social-media {
     footer {
         height: 150px;
     }
-    
+    .newsletter {
+        padding: 20px 40%;
+}
 }
