@@ -267,11 +267,16 @@ input[type="radio"]
     display: none;
 }
 /* Breakfast Recipies Styles */
-.breakfast-row-one {
-    display: flex;
-    justify-content: space-evenly;
+#breakfast-row-one h3 {
+    background-color: #829399;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 15px;
 }
-
+.banana-pancakes li, .bacon-and-eggs li {
+    text-transform: none;
+}
 /* Breakfast Hero Images */
 .hero-image2 {
     width: 100%;
@@ -384,7 +389,7 @@ footer .social-media {
         gap: 2em;
     }
 
-    .aside-columns ul {
+    .aside-columns ul, .aside-columns ol {
         background-color: #829399;
     }
     .essentials {
