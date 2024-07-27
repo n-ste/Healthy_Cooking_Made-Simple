@@ -222,21 +222,27 @@ input[type="radio"]
 }
 .newsletter-button {
     word-spacing: 5px;
-    text-align: center;
     background-color: #545F66;
-    border-bottom: 3px solid #D0F4EA;
     margin-top: 20px;
     cursor: pointer;
 }
-.newsletter-button .newsletter-sign-up {
+.newsletter-button {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+.newsletter-sign-up {
+    width: 100%;
     background-color: #545F66;
     font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
-    padding: 5px;
+    padding: 10px;
     border: 0;
-    cursor: pointer;
+    border-top: 3px solid #D0F4EA;
+
 }
 /*Show More and Show Less Styling */
 #show-more, #show-less {
@@ -249,6 +255,7 @@ input[type="radio"]
     display: block;
     cursor: pointer;
     text-align: center;
+    border-top: 3px solid #D0F4EA;
 }
 #show {
     display: none;
