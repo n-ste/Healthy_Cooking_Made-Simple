@@ -147,7 +147,7 @@ aside li {
 }
 .hero-image2 {
     width: 100%;
-    height: 500px;
+    height: 700px;
     margin: 0;
     background: url(../images/turkey-sweet-potato-breakfast-hash.webp) no-repeat center center/cover;
     z-index: -1;
@@ -155,9 +155,17 @@ aside li {
 }
 .hero-image3 {
     width: 100%;
-    height: 500px;
+    height: 700px;
     margin: 0;
     background: url(../images/sweet-spicy-glazed-salmon-veggies.webp) no-repeat center center/cover;
+    z-index: -1;
+    border-bottom: 3px solid #D0F4EA;
+}
+.hero-image4 {
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    background: url(../images/spaghetti-meatballs-wordpress.webp) no-repeat center center/cover;
     z-index: -1;
     border-bottom: 3px solid #D0F4EA;
 }
