@@ -55,6 +55,7 @@
                             <li>Tin foil</li>
                             <li>Blender (handheld will do)</li>
                         </ul>
+                        <h2 class="content-bottom"></h2>
                     </aside>
 
                     <div class="top-tips-image">
@@ -68,6 +69,7 @@
                                 the steps carefully. Anyhting is possible in the kitchen when everything is done as it
                                 is supposed to be. Given that you've got the correct equipment to follow the recipes;
                                 the final result should be as delicious as you anticipated. Good Luck!</p>
+                                <h2 class="content-bottom"></h2>
                         </aside>
                     </div>
                 </div>
@@ -79,50 +81,57 @@
                             we'll also offer tips and tricks to make the cooking process easier and the occasional give
                             away for cooking equipment and devices.</p>
                         <div class="newsletter">
-                            <div class="newsletter-input">
-                                <table>
-                                    <tr>
-                                        <td><label class="sign-up-label">Foreame:</label></td>
-                                        <td><input type="text" class="bars" id="first-name" name="first-name"
-                                                placeholder="Forename"></td>
-                                    </tr>
-                                    <tr>
-                                        <td><label class="sign-up-label">Surname:</label></td>
-                                        <td><input type="text" class="bars" id="surname" name="surname"
-                                                placeholder="Surname"></td>
-                                    </tr>
-                                    <tr>
-                                        <td><label class="sign-up-label">Email:</label></td>
-                                        <td><input type="email" class="bars" id="email" name="email"
-                                                placeholder="Email"></td>
-                                    </tr>
-                                </table>
+                            <div class="sign-up-page">
+                                <input type="checkbox" id="show">
+                                <div class="news-content">
+                                    <div class="newsletter-input">
+                                        <table>
+                                            <tr>
+                                                <td><label class="sign-up-label">Foreame:</label></td>
+                                                <td><input type="text" class="bars" id="first-name" name="first-name"
+                                                        placeholder="Forename"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><label class="sign-up-label">Surname:</label></td>
+                                                <td><input type="text" class="bars" id="surname" name="surname"
+                                                        placeholder="Surname"></td>
+                                            </tr>
+                                            <tr>
+                                                <td><label class="sign-up-label">Email:</label></td>
+                                                <td><input type="email" class="bars" id="email" name="email"
+                                                        placeholder="Email"></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+        
+                                    <div class="newsletter-radio">
+                                        <table>
+                                            <tr>
+                                                <td><label>Breakfast recipies</label></td>
+                                                <td><input type="radio" id="breakfast" name="recipe-preference" required></td>
+                                            </tr>
+                                            <tr>
+                                                <td> <label>Lunch recipies</label></td>
+                                                <td><input type="radio" id="lunch" name="recipe-preference" required></td>
+                                            </tr>
+                                            <tr>
+                                                <td><label>Dinner recipies</label></td>
+                                                <td><input type="radio" id="dinner" name="recipe-preference" required></td>
+                                            </tr>
+                                            <tr>
+                                                <td><label>All</label></td>
+                                                <td><input type="radio" id="all" name="recipe-preference" required></td>
+                                            </tr>
+                                            </table>
+                                        </div>
+                                        <div class="newsletter-button">
+                                            <input type="submit" class="newsletter-sign-up" value="Sign Up!">
+                                       </div>
+                                    </div>
+                                </div>
                             </div>
-
-                            <div class="newsletter-radio">
-                                <table>
-                                    <tr>
-                                        <td><label>Breakfast recipies</label></td>
-                                        <td><input type="radio" id="breakfast" name="recipe-preference" required></td>
-                                    </tr>
-                                    <tr>
-                                        <td> <label>Lunch recipies</label></td>
-                                        <td><input type="radio" id="lunch" name="recipe-preference" required></td>
-                                    </tr>
-                                    <tr>
-                                        <td><label>Dinner recipies</label></td>
-                                        <td><input type="radio" id="dinner" name="recipe-preference" required></td>
-                                    </tr>
-                                    <tr>
-                                        <td><label>All</label></td>
-                                        <td><input type="radio" id="all" name="recipe-preference" required></td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="newsletter-button">
-                            <input type="submit" class="newsletter-sign-up" value="Sign Up!">
-                        </div>
+                                <label for="show" id="show-more">Expand/Hide</label>
+                        </div>                    
                     </form>
                 </section>
             </div>

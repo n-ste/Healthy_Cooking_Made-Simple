@@ -129,6 +129,13 @@ aside li {
     padding: 15px;
     margin: 0 30px;
 }
+.content-bottom {
+    background-color: #545F66;
+    padding: 25px;
+    border-top: 3px solid #D0F4EA;
+    border-bottom: none;
+
+}
 /* Hero Image */
 .hero-image {
     width: 100%;
@@ -217,7 +224,8 @@ input[type="radio"]
     word-spacing: 5px;
     text-align: center;
     background-color: #545F66;
-    border-top: 3px solid #D0F4EA;
+    border-bottom: 3px solid #D0F4EA;
+    margin-top: 20px;
     cursor: pointer;
 }
 .newsletter-button .newsletter-sign-up {
@@ -229,6 +237,27 @@ input[type="radio"]
     padding: 5px;
     border: 0;
     cursor: pointer;
+}
+/*Show More and Show Less Styling */
+#show-more, #show-less {
+    background-color: #545F66;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 5px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+#show {
+    display: none;
+}
+#show:checked ~ .news-content {
+    display: block;
+}
+.news-content {
+    display: none;
 }
 /* Footer Styles */
 footer {
