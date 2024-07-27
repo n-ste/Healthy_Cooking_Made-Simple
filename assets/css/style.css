@@ -145,30 +145,6 @@ aside li {
     z-index: -1;
     border-bottom: 3px solid #D0F4EA;
 }
-.hero-image2 {
-    width: 100%;
-    height: 700px;
-    margin: 0;
-    background: url(../images/turkey-sweet-potato-breakfast-hash.webp) no-repeat center center/cover;
-    z-index: -1;
-    border-bottom: 3px solid #D0F4EA;
-}
-.hero-image3 {
-    width: 100%;
-    height: 700px;
-    margin: 0;
-    background: url(../images/sweet-spicy-glazed-salmon-veggies.webp) no-repeat center center/cover;
-    z-index: -1;
-    border-bottom: 3px solid #D0F4EA;
-}
-.hero-image4 {
-    width: 100%;
-    height: 700px;
-    margin: 0;
-    background: url(../images/spaghetti-meatballs-wordpress.webp) no-repeat center center/cover;
-    z-index: -1;
-    border-bottom: 3px solid #D0F4EA;
-}
 .cover-text {
     width: 90%;
     left: 5%;
@@ -289,6 +265,52 @@ input[type="radio"]
 }
 .news-content {
     display: none;
+}
+/* Breakfast Recipies Styles */
+.breakfast-row-one {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Breakfast Hero Images */
+.hero-image2 {
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    background: url(../images/turkey-sweet-potato-breakfast-hash.webp) no-repeat center center/cover;
+    z-index: -1;
+    border-bottom: 3px solid #D0F4EA;
+}
+/* Breakfast Images */
+.banana-pancakes img, .bacon-and-eggs img, .overnight-oats img, .breakfast-frittata img, .blueberry-ricotta img, .breakfast-quesadillas img {
+    height: 340px;
+    width: 340px;
+    margin-bottom: 0;
+}
+
+.banana-pancakes p, .bacon-and-eggs p {
+    margin: -5px 0;
+    border-top: 3px solid #D0F4EA;
+
+}
+ 
+/* Lunch Recipies Styles */
+.hero-image3 {
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    background: url(../images/sweet-spicy-glazed-salmon-veggies.webp) no-repeat center center/cover;
+    z-index: -1;
+    border-bottom: 3px solid #D0F4EA;
+}
+/* Dinner Recipies Styles */
+.hero-image4 {
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    background: url(../images/spaghetti-meatballs-wordpress.webp) no-repeat center center/cover;
+    z-index: -1;
+    border-bottom: 3px solid #D0F4EA;
 }
 /* Footer Styles */
 footer {
