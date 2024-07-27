@@ -188,16 +188,35 @@ aside li {
 }
 /* Newsletter Signup Form */
 .newsletter {
-    
+        background-color: #829399;
+        padding: 15px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        flex-direction: column;
+}
+#sign-up-heading {
+    background-color: #545F66;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 3px solid #D0F4EA;
+}
+
+.newsletter-input {
+    text-align: center;
+    align-items: center;
+}
+.bars {
+    margin: 5px;
+    color: #545F66;
 }
 input[type="text"]
 {
-    font-size:2rem;
     margin: 5px 0;
 }
 input[type="email"]
 {
-    font-size:1rem;
     margin: 5px 0;
 }
 
@@ -205,7 +224,14 @@ input[type="radio"]
 {
     height: 2rem;
 }
-
+.newsletter-button {
+    text-align: center;
+}
+.newsletter-button .newsletter-sign-up {
+    background-color: #545F66;
+    padding: 5px;
+    border: 0;
+}
 /* Footer Styles */
 footer {
     background-color: #B1CC74;
