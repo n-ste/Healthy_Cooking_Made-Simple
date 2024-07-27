@@ -298,7 +298,7 @@ footer .social-media {
     .main-content {
         display: flex;
         flex-direction: column;
-        padding: 50px;
+        padding: 50px 100px;
     }
 
     .aside-columns {
@@ -340,6 +340,9 @@ footer .social-media {
         padding: 125px 0 0 0;
         top: 360px;
     }
+    .main-content {
+        padding: 50px 150px;
+    }
 }
 
 /* Responsive Layout for Desktops */
@@ -351,7 +354,9 @@ footer .social-media {
         padding: 125px 0 0 0;
         top: 360px;
     }
-
+    .main-content {
+        padding: 50px 250px;
+    }
     footer {
         height: 150px;
     }
