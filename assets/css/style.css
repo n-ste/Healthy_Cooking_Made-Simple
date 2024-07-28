@@ -267,6 +267,12 @@ input[type="radio"]
     display: none;
 }
 /* Breakfast Recipies Styles */
+.breakfast-recipies {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    padding: 5px;
+}
 #breakfast-row-one h3, #breakfast-row-two h3, #breakfast-row-three h3 {
     background-color: #829399;
     font-family: 'Kanit', sans-serif;
@@ -274,8 +280,11 @@ input[type="radio"]
     letter-spacing: 1px;
     padding: 5px 15px;
 }
-.breakfast-recipies ol {
+.breakfast-recipies ol, .breakfast-recipies ul {
     background-color: #829399;
+}
+.breakfast-recipies .breakfast-row-one {
+    width: 100%;
 }
 .banana-pancakes li, .bacon-and-eggs li, .overnight-oats li, .breakfast-frittata li, .blueberry-ricotta li, .breakfast-quesadillas li {
     text-transform: none;
@@ -291,8 +300,7 @@ input[type="radio"]
 }
 /* Breakfast Images */
 .banana-pancakes img, .bacon-and-eggs img, .overnight-oats img, .breakfast-frittata img, .blueberry-ricotta img, .breakfast-quesadillas img {
-    height: 340px;
-    width: 340px;
+    width: 100%;
     margin-bottom: 0;
 }
 /* Styles Expand Button */
@@ -472,6 +480,10 @@ footer .social-media {
 
     .newsletter {
         padding: 20px 33%;
+}
+.breakfast-recipies {
+    display: flex;
+    flex-wrap: wrap;
 }
 }
 /* Responsive Layout for Laptops */
