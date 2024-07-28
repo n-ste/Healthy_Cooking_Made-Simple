@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Montserrat&display=swap');
-
+/* Wildcard Selectors */
 * {
     margin: 0; 
     padding: 0;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
 }
+/* Body Styles */
 body {
     display: flex;
     flex-direction: column;
     flex: 3;
     background-color: #B1CC74;
 }
+/* Styling for the H1, H2 and Navigation Links */
 body h1, body h2, nav li {
     font-family: 'Kanit', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
 }
-
+/* Paragraph Line Height */
 body p {
     line-height: 35px;
 }
@@ -31,12 +33,15 @@ header {
     flex: 1;
     border-bottom: 3px solid #D0F4EA;
 }
+/* H1 Heading Styles */
 header h1 {
     padding: 0 20px 20px 20px;
 }
+/* Header Link Styles */
 header a {
     text-decoration: none;
 }
+/* Styling for the Logo Heading */
 #title-logo {
     margin: 0;
     padding: 0;
@@ -55,16 +60,20 @@ nav {
     z-index: 1;
 
 }
+/* Styling for when the Nav Icon is Clicked */
 #nav-dropdown-toggle:checked~nav {
     display: block;
 }
+/* Nav Bar Toggle Button */
 #nav-dropdown-toggle {
     display: none;
 }
+/* Nav Bar Toggle Label */
 .nav-dropdown-toggle-label {
     font-size: 2rem;
     padding: 15px;
 }
+/* Nav Link Styles */
 nav ul {
     list-style-type: none;
     text-align: center;
@@ -83,9 +92,11 @@ li a {
 nav a {
     margin-bottom: 50px;
 }
+/* Effect for when Nav Link is Hovered Over */
 nav a:hover{
     border-bottom: 1px solid #ffffff;
 }
+/* Style for the active webpage */
 .active {
     background-color: #ffffff;
     color: #B1CC74;
@@ -97,32 +108,37 @@ main {
     height: 100vh;
     flex: 3;
 }
-
+/* Styles for main content container */
 .main-content {
     background-color: #E8FCC2;
     padding: 10px;
 }
-
+/* Styles for Section and Aside */
 section, aside {
     margin-bottom: 50px;
 }
+/* Styles for Section and Aside H2 Headings */
 section h2, aside h2 {
     background-color: #545F66;
     padding: 15px;
     border-bottom: 3px solid #D0F4EA;
 }
+/* Resources Container */
 .resources {
     background-color: #545F66;
 }
+/* Styles for Section and Aside Paragraphs */
 section p, aside p {
     background-color: #829399;
     padding: 15px;
 }
+/* Styles for Unordered Lists in the Aside Columns Container */
 .aside-columns ul {
     width: 100%;
     background-color: #829399;
     margin: 0;
 }
+/* Styles for List Items in the Aside Columns Sections */
 aside li {
     font-family: 'Kanit', sans-serif;
     text-transform: uppercase;
@@ -131,6 +147,7 @@ aside li {
     padding: 15px;
     margin: 0 30px;
 }
+/* Styles for the bottom of a Section/Aside*/
 .content-bottom {
     background-color: #545F66;
     padding: 25px;
@@ -147,6 +164,7 @@ aside li {
     z-index: -1;
     border-bottom: 3px solid #D0F4EA;
 }
+/* Cover Text Styles */
 .cover-text {
     width: 90%;
     left: 5%;
@@ -155,12 +173,14 @@ aside li {
     top: 200px;
 
 }
+/* Cover Text H2 Heading */
 .cover-text h2 {
     padding: 10px;
     background-color: rgba(84, 95, 102, 0.9);
     margin: 0;
     border-bottom: 3px solid rgba(208, 244, 234, 0.9);
 }
+/* Cover Text Paragraph Styles */
 .cover-text p {
     padding: 10px;
     background-color: rgba(130, 147, 153, 0.9);
@@ -173,9 +193,11 @@ aside li {
     margin-right: auto;
     width: 300px;
 }
+/* Padding for Resources Contianer */
 .resources-container {
     padding: 5px;
 }
+/* Box Shadow for the Sections on the Main Page */
 .resources, .essentials, .aside-image img, .top-tips, .newsletter-form {
     box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
 }
@@ -185,17 +207,19 @@ aside li {
         display: flex;
         flex-direction: column;
 }
+/* Newsletter Signup Description */
 .newsletter-form p {
     background-color: #545F66;
     border-radius: 0;
     border-bottom: 3px solid #D0F4EA;
 }
-
+/* Sign Up Heading Styles */
 #sign-up-heading {
     background-color: #545F66;
     padding: 15px;
     border-bottom: 3px solid #D0F4EA;
 }
+/* Newsletter Input Styles */
 .newsletter-input {
     align-items: center;
     margin-bottom: 30px;
@@ -222,6 +246,7 @@ input[type="radio"]
 {
     height: 2rem;
 }
+/* Stlyes for the Newsletter Sign Up Button */
 .newsletter-button {
     word-spacing: 5px;
     background-color: #545F66;
@@ -233,6 +258,7 @@ input[type="radio"]
     text-align: center;
     cursor: pointer;
 }
+/* Styles for the Newsletter Form */
 .newsletter-sign-up {
     width: 100%;
     background-color: #545F66;
@@ -262,6 +288,7 @@ input[type="radio"]
 #show {
     display: none;
 }
+/* Styles for the Expand/Hide Button on the Home Page */
 #show:checked ~ .news-content {
     display: block;
 }
@@ -286,6 +313,7 @@ input[type="radio"]
     flex-direction: column;
     width: 340px;
 }
+/* Styles for Recipe Item Headings */
 #recipe-item h3, #recipe-item h3, #recipe-item h3 {
     background-color: #829399;
     font-family: 'Kanit', sans-serif;
@@ -585,10 +613,12 @@ footer .social-media {
 }
 /* Responsive Layout for Tablets */
 @media screen and (min-width: 768px) {
+    /* Header Styles for Tablets */
     header {
         display: flex;
         flex-wrap: wrap;
     }
+    /* Nav Styles for Tablets */
     nav {
         display: flex;
         justify-content: flex-end;
@@ -601,7 +631,7 @@ footer .social-media {
     .navigation-bar {
         display: flex;
     }
-
+    /* Nav Link Styles for Tablets */
     .navigation-bar > li {
         padding: 1rem;
         text-align: center;
@@ -614,11 +644,11 @@ footer .social-media {
         margin: 10px;
         box-shadow: none;
     }
-
+    /* Removes Toggle for Nav on screen sized greater than 768px */
     .nav-dropdown-toggle-label {
         display: none;
     }
-
+    /* Styling for Cover Text Container */
     .cover-text {
         width: 90%;
         left: 5%;
@@ -626,38 +656,39 @@ footer .social-media {
         padding: 125px 0 0 0;
         top: 350px;
     }
-
+    /* Styling for Main Content Container */
     .main-content {
         display: flex;
         flex-direction: column;
         padding: 50px;
         overflow: hidden;
     }
-
+    /* Styling for Aside Columns */
     .aside-columns {
         display: flex;
         flex-direction: row;
         gap: 2em;
     }
-
+    /* Styling for Lists in Columns */
     .aside-columns ul, .aside-columns ol {
         background-color: #829399;
     }
+    /* Styling for Essentials Container */
     .essentials {
         width: 50%;
         height: 50%;
     }
-
+    /* Styling for Top Tips Image */
     .top-tips-image {
         width: 50%;
         display: flex;
         flex-direction: column;
     }
-
+    /* Styling for Newsletter*/
     .newsletter {
         padding: 20px 33%;
     }
-
+    /* Styling for Recipe Type Containers */
     .breakfast-container, .lunch-container, .dinner-container {
         display: flex;
         flex-wrap: wrap; 
@@ -670,7 +701,7 @@ footer .social-media {
         flex-direction: column;
         width: 900px;
     }
-
+    /* Styling for Recipe Items */
     #recipe-item {
         gap: 3em;
         margin: 0 0;
@@ -679,10 +710,12 @@ footer .social-media {
 }
 /* Responsive Layout for Laptops */
 @media screen and (min-width: 992px) {
+    /* Styles for Nav Link Items */
     nav a {
         margin: 0;
         padding: 0;
     }
+    /* Styling for Cover Text*/
     .cover-text {
         width: 80%;
         left: 10%;
@@ -690,15 +723,17 @@ footer .social-media {
         padding: 125px 0 0 0;
         top: 360px;
     }
+    /* Styling for Main Content Container */
     .main-content {
         padding: 50px 90px;
     }
-
+    /* Styling for Recipe Meal Type Containers */
     .breakfast-recipies, .lunch-recipies, .dinner-recipies {
         display: flex;
         flex-direction: column;
         width: 842px;
     }
+    /* Styling for Recipe Items */
     #recipe-item {
         gap: 3em;
         margin: 0 0;
@@ -707,6 +742,7 @@ footer .social-media {
 }
 /* Responsive Layout for Desktops */
 @media screen and (min-width: 1200px) {
+    /* Styling for Cover Text on Devices Greater than 1200px*/
     .cover-text {
         width: 70%;
         left: 15%;
@@ -714,19 +750,24 @@ footer .social-media {
         padding: 125px 0 0 0;
         top: 360px;
     }
+    /* Styling for Main Content Container */
     .main-content {
         padding: 50px 120px;
     }
+    /* Styling for Meal Recipe Type*/
     .breakfast-recipies, .lunch-recipies, .dinner-recipies {
         width: 1140px;
     }
+    /* Styling for Meal Type Containers */
     .breakfast-container, .lunch-container, .dinner-container {
         gap: 2em;
     }
+    /* Styling for Recipe Items */
     #recipe-item {
         padding-right: 10px;
         width: 320px;
     }
+    /* Styling for Footer on Desktops */
     footer {
         height: 150px;
     }
