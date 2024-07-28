@@ -274,6 +274,18 @@ input[type="radio"]
     flex-direction: column;
     width: 340px;
 }
+/* Lunch Recipies Styles  */
+.lunch-recipies {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+}
+/* Dinner Recipies Styles  */
+.dinner-recipies {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+}
 #recipe-item h3, #recipe-item h3, #recipe-item h3 {
     background-color: #829399;
     font-family: 'Kanit', sans-serif;
@@ -281,12 +293,31 @@ input[type="radio"]
     letter-spacing: 1px;
     padding: 5px 15px;
 }
+/* Breakfast Lists */
 .breakfast-recipies ol, .breakfast-recipies ul {
     background-color: #829399;
 }
+/* Lunch Lists */
+.lunch-recipies ol, .lunch-recipies ul {
+    background-color: #829399;
+}
+/* Dinner Lists */
+.dinner-recipies ol, .dinner-recipies ul {
+    background-color: #829399;
+}
+/* Breakfast Recipes Division */
 .breakfast-recipies .breakfast-row-one {
     width: 100%;
 }
+/* Lunch Recipes Division */
+.lunch-recipies .lunch-row-one {
+    width: 100%;
+}
+/* Dinner Recipes Division */
+.lunch-recipies .lunch-row-one {
+    width: 100%;
+}
+/* Removing Capitalisation from Recipe List Items */
 .banana-pancakes li, .bacon-and-eggs li, .overnight-oats li, .breakfast-frittata li, .blueberry-ricotta li, .breakfast-quesadillas li {
     text-transform: none;
 }
@@ -484,14 +515,14 @@ footer .social-media {
         padding: 20px 33%;
     }
 
-    .breakfast-container {
+    .breakfast-container, .lunch-container, .dinner-container {
         display: flex;
         flex-wrap: wrap; 
         flex: wrap;
         width: 100vw;
         gap: 3em;
     }
-    .breakfast-recipies {
+    .breakfast-recipies, .lunch-recipies, .dinner-recipies {
         display: flex;
         flex-direction: column;
         width: 900px;
@@ -520,7 +551,7 @@ footer .social-media {
         padding: 50px 75px;
     }
 
-    .breakfast-recipies {
+    .breakfast-recipies, .lunch-recipies, .dinner-recipies {
         display: flex;
         flex-direction: column;
         width: 842px;
@@ -543,7 +574,7 @@ footer .social-media {
     .main-content {
         padding: 50px 70px;
     }
-    .breakfast-recipies {
+    .breakfast-recipies, .lunch-recipies, .dinner-recipies {
         width: 1140px;
     }
     #recipe-item {
