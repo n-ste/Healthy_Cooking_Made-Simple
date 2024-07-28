@@ -295,11 +295,6 @@ input[type="radio"]
     width: 340px;
     margin-bottom: 0;
 }
-
-.banana-pancakes p, .bacon-and-eggs p {
-    margin: -5px 0;
-    border-top: 3px solid #D0F4EA;
-}
 /* Styles Expand Button */
 #expand-checkbox-label {
     background-color: #545F66;
