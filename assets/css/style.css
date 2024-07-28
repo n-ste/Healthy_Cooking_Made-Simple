@@ -548,7 +548,7 @@ footer .social-media {
         top: 360px;
     }
     .main-content {
-        padding: 50px 75px;
+        padding: 50px 90px;
     }
 
     .breakfast-recipies, .lunch-recipies, .dinner-recipies {
@@ -559,7 +559,7 @@ footer .social-media {
     #recipe-item {
         gap: 3em;
         margin: 0 0;
-        width: 395px;
+        width: 380px;
     }
 }
 /* Responsive Layout for Desktops */
@@ -572,12 +572,16 @@ footer .social-media {
         top: 360px;
     }
     .main-content {
-        padding: 50px 70px;
+        padding: 50px 120px;
     }
     .breakfast-recipies, .lunch-recipies, .dinner-recipies {
         width: 1140px;
     }
+    .breakfast-container {
+        gap: 2em;
+    }
     #recipe-item {
+        padding-right: 10px;
         width: 320px;
     }
     footer {
