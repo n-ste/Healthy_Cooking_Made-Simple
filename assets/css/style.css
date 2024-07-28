@@ -245,7 +245,7 @@ input[type="radio"]
 
 }
 /*Show More and Show Less Styling */
-#show-more, #show-less {
+#show-more {
     background-color: #545F66;
     font-family: 'Kanit', sans-serif;
     text-transform: uppercase;
@@ -299,9 +299,78 @@ input[type="radio"]
 .banana-pancakes p, .bacon-and-eggs p {
     margin: -5px 0;
     border-top: 3px solid #D0F4EA;
-
 }
- 
+/* Styles Expand Button */
+#expand-checkbox-label {
+    background-color: #545F66;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 5px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    border-top: 3px solid #D0F4EA;
+}
+
+/* Hides Checkbox */
+#expand-checkbox-pancakes {
+    display: none;
+}
+#expand-checkbox-bacon-and-eggs {
+    display: none;
+}
+#expand-checkbox-oats {
+    display: none;
+}
+#expand-checkbox-frittata {
+    display: none;
+}
+#expand-checkbox-ricotta {
+    display: none;
+}
+#expand-checkbox-quesadilla {
+    display: none;
+}
+/* Hides Recipe Content */
+.recipe-content-pancakes {
+    display: none;
+}
+.recipe-content-bacon-and-eggs {
+    display: none;
+}
+.recipe-content-oats {
+    display: none;
+}
+.recipe-content-frittata {
+    display: none;
+}
+.recipe-content-ricotta {
+    display: none;
+}
+.recipe-content-quesadilla {
+    display: none;
+}
+/* Shows Recipe Content When Clicked */
+#expand-checkbox-pancakes:checked~.recipe-content-pancakes {
+    display: block;
+}
+#expand-checkbox-bacon-and-eggs:checked~.recipe-content-bacon-and-eggs {
+    display: block;
+}
+#expand-checkbox-oats:checked~.recipe-content-oats {
+    display: block;
+}
+#expand-checkbox-frittata:checked~.recipe-content-frittata {
+    display: block;
+}
+#expand-checkbox-ricotta:checked~.recipe-content-ricotta {
+    display: block;
+}
+#expand-checkbox-quesadilla:checked~.recipe-content-quesadilla {
+    display: block;
+}
 /* Lunch Recipies Styles */
 .hero-image3 {
     width: 100%;

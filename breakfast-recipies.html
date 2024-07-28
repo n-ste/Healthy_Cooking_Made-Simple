@@ -49,9 +49,8 @@
                         <p>These quick and easy banana pancakes are dairy-free and egg-free. Mashed banana is an egg
                             substitute that works really well in pancakes, and makes them taste even better. They can be
                             ready in just 10 minutes, and wolfed down in one! Perfect for busy mornings.</p>
-                        <input type="checkbox" id="expand-checkbox">
-                        <label for="expand-checkbox">Expand/Hide</label>
-                        <div class="pancake-expand">
+                        <input type="checkbox" id="expand-checkbox-pancakes">
+                        <div class="recipe-content-pancakes">
                             <p>Each pancake (without the optional toppings) provides 119 kcal, 2.5g protein, 22g
                                 carbohydrates
                                 (of which 5g sugars), 2g fat (of which 1.5g saturates), 1.5g fibre and 0.22g salt.</p>
@@ -89,7 +88,7 @@
                                         blueberries, maple syrup and coconut yoghurt. Enjoy while still warm. </li>
                                 </ol>
                         </div>
-                        <h2 class="content-bottom"></h2>
+                        <label for="expand-checkbox-pancakes" id="expand-checkbox-label">Expand/Hide</label>
                     </aside>
                     <aside class="bacon-and-eggs">
                         <h2>Fried bacon with poached egg and tomatoes</h2>
@@ -100,9 +99,8 @@
                             you cook it. Choose good lean back bacon and partner it with poached eggs for protein and
                             fresh
                             nutritious veg.</p>
-                        <input type="checkbox" id="expand-checkbox">
-                        <label for="expand-checkbox">Expand/Hide</label>
-                        <div class="bacon-and-eggs-expand">
+                        <input type="checkbox" id="expand-checkbox-bacon-and-eggs">
+                        <div class="recipe-content-bacon-and-eggs">
                             <p>With a GI of 45 this meal is high protein, low GI and provides 264 kcal per portion.</p>
                             <h3>Ingredients</h3>
                             <ul>
@@ -147,7 +145,7 @@
                                     all lovely and hot.</li>
                             </ol>
                         </div>
-                        <h2 class="content-bottom"></h2>
+                        <label for="expand-checkbox-bacon-and-eggs" id="expand-checkbox-label">Expand/Hide</label>
                     </aside>
                 </div>
                 <div class="aside-columns" id="breakfast-row-two">
@@ -158,9 +156,8 @@
                         <p>Prepare this blueberry and apple overnight oats recipe for a super-quick and tasty breakfast
                             the
                             next morning.</p>
-                        <input type="checkbox" id="expand-checkbox">
-                        <label for="expand-checkbox">Expand/Hide</label>
-                        <div class="overnight-oats">
+                        <input type="checkbox" id="expand-checkbox-oats">
+                        <div class="recipe-content-oats">
                             <p>With a GI of 46 this meal is high protein, low GI and provides 335 kcal per portion.</p>
                             <h3>Ingedients</h3>
                             <ul>
@@ -183,8 +180,7 @@
                                 <li>Spoon into two bowls and top with the blueberries and almonds. </li>
                             </ol>
                         </div>
-
-                        <h2 class="content-bottom"></h2>
+                        <label for="expand-checkbox-oats" id="expand-checkbox-label">Expand/Hide</label>
                     </aside>
                     <aside class="breakfast-frittata">
                         <h2>All-day breakfast frittata</h2>
@@ -192,9 +188,8 @@
                             alt="An image of plate of a breakfast frittata.">
                         <p>We’ve packed loads of extra veggies into this easy frittata so you can get the jump on your
                             5-a-day from the get go. But it’s also great cold in a sandwich.</p>
-                        <input type="checkbox" id="expand-checkbox">
-                        <label for="expand-checkbox">Expand/Hide</label>
-                        <div class="breakfast-frittata">
+                        <input type="checkbox" id="expand-checkbox-frittata">
+                        <div class="recipe-content-frittata">
                             <p>Each serving provides 290 kcal, 24g protein, 11g carbohydrate (of which 3g sugars), 16g
                                 fat
                                 (of which 5g saturates), 3g fibre and 1.4g salt.</p>
@@ -256,29 +251,27 @@
                                     with a crunchy salad for maximum veggies.</li>
                             </ul>
                         </div>
-                        <h2 class="content-bottom"></h2>
+                        <label for="expand-checkbox-frittata" id="expand-checkbox-label">Expand/Hide</label>
                     </aside>
                 </div>
                 <div class="aside-columns" id="breakfast-row-three">
                     <aside class="blueberry-ricotta">
-                       <div class="blueberry-ricotta">
-                        <input type="checkbox" id="expand-checkbox">
-                        <label for="expand-checkbox">Expand/Hide</label>
-                        <div class="blueberry-ricotta"></div>
                         <h2>Blueberry Ricotta Pot</h2>
                         <img src="./assets/images/ricotta_pots_with_13643_16x9.jpg"
                             alt="An image of blueberry ricotta pot.">
                         <p>Ricotta is eaten for breakfast in Italy and also works well as a snack. Cinnamon adds
                             sweetness
-                            without sugar and blueberries are a relatively low-sugar fruit. Honey tastes sweeter than
+                            without sugar and blueberries are a relatively low-sugar fruit. Honey tastes sweeter
+                            than
                             sugar
-                            and you need just a spoonful. Briefly dip your teaspoon in very hot water to help it slip
+                            and you need just a spoonful. Briefly dip your teaspoon in very hot water to help it
+                            slip
                             off
                             easily.</p>
-                        <input type="checkbox" id="expand-checkbox">
-                        <label for="expand-checkbox">Expand/Hide</label>
-                        <div class="blueberry-ricotta">
-                            <p>Each serving provides 211 kcal, 10g protein, 16.5g carbohydrates (of which 16.5g sugars),
+                        <input type="checkbox" id="expand-checkbox-ricotta">
+                        <div class="recipe-content-ricotta">
+                            <p>Each serving provides 211 kcal, 10g protein, 16.5g carbohydrates (of which 16.5g
+                                sugars),
                                 11g
                                 fat
                                 (of which 7g saturates), 2g fibre and 0.3g salt. </p>
@@ -291,107 +284,118 @@
                             </ul>
                             <h3>Method</h3>
                             <ol>
-                                <li>Mix the ricotta with the cinnamon and half the honey in a bowl. Gently stir in most
+                                <li>Mix the ricotta with the cinnamon and half the honey in a bowl. Gently stir in
+                                    most
                                     of
                                     the blueberries. Divide the mixture between two ramekins or small bowls. </li>
-                                <li>Top with the remaining blueberries and keep in the fridge, covered, until ready to
+                                <li>Top with the remaining blueberries and keep in the fridge, covered, until ready
+                                    to
                                     eat.
                                     Drizzle over the remaining honey just before serving.</li>
                             </ol>
-                       </div>
                         </div>
-                        <h2 class="content-bottom"></h2>
+                        <label for="expand-checkbox-ricotta" id="expand-checkbox-label">Expand/Hide</label>
                     </aside>
                     <aside class="breakfast-quesadillas">
                         <h2>Breakfast Quesadillas (V)</h2>
                         <img src="./assets/images/breakfast_quesadillas_82028_16x9.jpg"
                             alt="An image of a breakfast quesadilla on a cutting board.">
-                        <input type="checkbox" id="expand-checkbox">
-                        <label for="expand-checkbox">Expand/Hide</label>
                         <p>For a leisurely weekend brunch or a light meal any day of the week, these breakfast
                             quesadillas
                             are filled with bacon and scrambled eggs and served with colourful salsas, guacamole and
                             refried
                             beans.</p>
-                        <h3>Ingredients</h3>
-                        <ol>
-                            <li>unsalted butter, for cooking </li>
-                            <li>6 rashers unsmoked bacon, chopped </li>
-                            <li>6 large free-range eggs</li>
-                            <li>splash milk</li>
-                            <li>4 flour tortillas</li>
-                            <li>½ small red onion, finely chopped</li>
-                            <li>4 tbsp cheddar or Monterey Jack cheese, grated</li>
-                            <li>small handful chopped fresh coriander</li>
-                            <li>cayenne pepper</li>
-                        </ol>
-                        <h3>For the tomato salsa</h3>
-                        <ul>
-                            <li>150g/5½oz small cherry tomatoes, chopped</li>
-                            <li>½ red onion, finely chopped</li>
-                            <li>1–2 tsp finely chopped hot green jalapeño chillies (from a jar)</li>
-                            <li>1 tbsp honey</li>
-                            <li>1 lime, juice only</li>
-                            <li>pinch cayenne pepper</li>
-                            <li>¼ tsp salt</li>
-                            <li>pinch freshly ground black pepper</li>
-                            <li>4 tbsp chopped fresh coriander</li>
-                        </ul>
-                        <h3>For the mango salsa</h3>
-                        <ul>
-                            <li>1 ripe mango, peeled, stone removed, finely chopped</li>
-                            <li>½ red onion, finely chopped</li>
-                            <li>1–2 tsp finely chopped hot green jalapeño chillies (from a jar)</li>
-                            <li>1 lime, juice only</li>
-                            <li>pinch cayenne pepper</li>
-                            <li>¼ tsp salt</li>
-                            <li>pinch freshly ground black pepper</li>
-                            <li>4 tbsp chopped fresh coriander</li>
-                        </ul>
-                        <h3>To serve</h3>
-                        <ul>
-                            <li>4 tbsp soured cream</li>
-                            <li>guacamole</li>
-                            <li>refried beans</li>
-                        </ul>
-                        <h3>Method</h3>
-                        <ol>
-                            <li>First make the salsas. For the tomato salsa, put the tomatoes in a bowl. Mix in the
-                                onion
-                                and jalapeños. Add the honey, lime juice, cayenne pepper, salt and pepper and mix well.
-                                Add
-                                the coriander and set aside for 30 minutes. </li>
+                        <input type="checkbox" id="expand-checkbox-quesadilla">
+                        <div class="recipe-content-quesadilla">
+                            <h3>Ingredients</h3>
+                            <ol>
+                                <li>unsalted butter, for cooking </li>
+                                <li>6 rashers unsmoked bacon, chopped </li>
+                                <li>6 large free-range eggs</li>
+                                <li>splash milk</li>
+                                <li>4 flour tortillas</li>
+                                <li>½ small red onion, finely chopped</li>
+                                <li>4 tbsp cheddar or Monterey Jack cheese, grated</li>
+                                <li>small handful chopped fresh coriander</li>
+                                <li>cayenne pepper</li>
+                            </ol>
+                            <h3>For the tomato salsa</h3>
+                            <ul>
+                                <li>150g/5½oz small cherry tomatoes, chopped</li>
+                                <li>½ red onion, finely chopped</li>
+                                <li>1–2 tsp finely chopped hot green jalapeño chillies (from a jar)</li>
+                                <li>1 tbsp honey</li>
+                                <li>1 lime, juice only</li>
+                                <li>pinch cayenne pepper</li>
+                                <li>¼ tsp salt</li>
+                                <li>pinch freshly ground black pepper</li>
+                                <li>4 tbsp chopped fresh coriander</li>
+                            </ul>
+                            <h3>For the mango salsa</h3>
+                            <ul>
+                                <li>1 ripe mango, peeled, stone removed, finely chopped</li>
+                                <li>½ red onion, finely chopped</li>
+                                <li>1–2 tsp finely chopped hot green jalapeño chillies (from a jar)</li>
+                                <li>1 lime, juice only</li>
+                                <li>pinch cayenne pepper</li>
+                                <li>¼ tsp salt</li>
+                                <li>pinch freshly ground black pepper</li>
+                                <li>4 tbsp chopped fresh coriander</li>
+                            </ul>
+                            <h3>To serve</h3>
+                            <ul>
+                                <li>4 tbsp soured cream</li>
+                                <li>guacamole</li>
+                                <li>refried beans</li>
+                            </ul>
+                            <h3>Method</h3>
+                            <ol>
+                                <li>First make the salsas. For the tomato salsa, put the tomatoes in a bowl. Mix in the
+                                    onion
+                                    and jalapeños. Add the honey, lime juice, cayenne pepper, salt and pepper and mix
+                                    well.
+                                    Add
+                                    the coriander and set aside for 30 minutes. </li>
 
-                            <li>Make the mango salsa in the same way, in a separate bowl.</li>
+                                <li>Make the mango salsa in the same way, in a separate bowl.</li>
 
-                            <li>Preheat the oven to 180C/160C Fan/Gas 4. Lightly grease a large baking sheet.</li>
+                                <li>Preheat the oven to 180C/160C Fan/Gas 4. Lightly grease a large baking sheet.</li>
 
-                            <li>Heat a frying pan over a high heat and add a knob of butter. Cook the bacon for a few
-                                minutes until crisp. Remove from the heat and leave to cool a little. </li>
+                                <li>Heat a frying pan over a high heat and add a knob of butter. Cook the bacon for a
+                                    few
+                                    minutes until crisp. Remove from the heat and leave to cool a little. </li>
 
-                            <li>Whisk the eggs together with salt and pepper and a splash of milk. Melt a large knob of
-                                butter in a non-stick saucepan. Add the eggs and cook over a low heat, stirring until
-                                the
-                                eggs are softly scrambled. Remove from the heat.</li>
+                                <li>Whisk the eggs together with salt and pepper and a splash of milk. Melt a large knob
+                                    of
+                                    butter in a non-stick saucepan. Add the eggs and cook over a low heat, stirring
+                                    until
+                                    the
+                                    eggs are softly scrambled. Remove from the heat.</li>
 
-                            <li>To assemble, melt a little more butter. Lay the tortillas on a board and lightly brush
-                                with
-                                the melted butter. Place a quarter of the bacon on one half of each tortilla. Top with
-                                the
-                                scrambled egg, and a couple of tablespoons of tomato salsa. Sprinkle on some chopped red
-                                onion, grated cheese and a little chopped coriander; don’t overfill.</li>
+                                <li>To assemble, melt a little more butter. Lay the tortillas on a board and lightly
+                                    brush
+                                    with
+                                    the melted butter. Place a quarter of the bacon on one half of each tortilla. Top
+                                    with
+                                    the
+                                    scrambled egg, and a couple of tablespoons of tomato salsa. Sprinkle on some chopped
+                                    red
+                                    onion, grated cheese and a little chopped coriander; don’t overfill.</li>
 
-                            <li>Fold over the tortilla to make a semicircle shape, brush the top with more melted butter
-                                and
-                                sprinkle over a pinch of cayenne pepper. Cut each tortilla in half and carefully place
-                                on
-                                the baking sheet. </li>
+                                <li>Fold over the tortilla to make a semicircle shape, brush the top with more melted
+                                    butter
+                                    and
+                                    sprinkle over a pinch of cayenne pepper. Cut each tortilla in half and carefully
+                                    place
+                                    on
+                                    the baking sheet. </li>
 
-                            <li>Bake for 10 minutes. Leave to cool slightly and serve with the mango salsa, soured
-                                cream,
-                                guacamole, refried beans and any remaining tomato salsa. </li>
-                        </ol>
-                        <h2 class="content-bottom"></h2>
+                                <li>Bake for 10 minutes. Leave to cool slightly and serve with the mango salsa, soured
+                                    cream,
+                                    guacamole, refried beans and any remaining tomato salsa. </li>
+                            </ol>
+                        </div>
+                        <label for="expand-checkbox-quesadilla" id="expand-checkbox-label">Expand/Hide</label>
                     </aside>
                 </div>
             </div>
