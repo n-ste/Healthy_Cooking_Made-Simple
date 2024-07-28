@@ -268,14 +268,13 @@ input[type="radio"]
 .news-content {
     display: none;
 }
-/* Breakfast Recipies Styles */
+/* Breakfast Recipies Styles  */
     .breakfast-recipies {
     display: flex;
     flex-direction: column;
-    width: 330px;
-    padding: 5px;
+    width: 340px;
 }
-#breakfast-row-one h3, #breakfast-row-two h3, #breakfast-row-three h3 {
+#recipe-item h3, #recipe-item h3, #recipe-item h3 {
     background-color: #829399;
     font-family: 'Kanit', sans-serif;
     text-transform: uppercase;
@@ -458,6 +457,7 @@ footer .social-media {
         display: flex;
         flex-direction: column;
         padding: 50px;
+        overflow: hidden;
     }
 
     .aside-columns {
@@ -484,36 +484,24 @@ footer .social-media {
         padding: 20px 33%;
     }
 
+    .breakfast-container {
+        display: flex;
+        flex-wrap: wrap; 
+        flex: wrap;
+        width: 100vw;
+        gap: 3em;
+    }
     .breakfast-recipies {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
-        gap: 3rem;
+        width: 900px;
     }
-    .breakfast-row-one {
-        display: flex;
-        gap: 3em;
-        width: 100%;
-    }
-    .breakfast-row-two {
-        display: flex;
-        flex-direction: row;
-        gap: 3em;
-        width: 100%;
-        margin-bottom: 0;
-    }
-    .breakfast-row-three {
-        display: flex;
-        flex-direction: row;
-        gap: 3em;
-        width: 100%;
-    }
+
     #recipe-item {
-        display: block;
-        width: 50%;
-        margin-bottom: 0;
-    }
+        gap: 3em;
+        margin: 0 0;
+        width: 330px;
+    }    
 }
 /* Responsive Layout for Laptops */
 @media screen and (min-width: 992px) {
@@ -529,10 +517,20 @@ footer .social-media {
         top: 360px;
     }
     .main-content {
-        padding: 50px 150px;
+        padding: 50px 75px;
+    }
+
+    .breakfast-recipies {
+        display: flex;
+        flex-direction: column;
+        width: 842px;
+    }
+    #recipe-item {
+        gap: 3em;
+        margin: 0 0;
+        width: 395px;
     }
 }
-
 /* Responsive Layout for Desktops */
 @media screen and (min-width: 1200px) {
     .cover-text {
@@ -543,7 +541,13 @@ footer .social-media {
         top: 360px;
     }
     .main-content {
-        padding: 50px 250px;
+        padding: 50px 70px;
+    }
+    .breakfast-recipies {
+        width: 1140px;
+    }
+    #recipe-item {
+        width: 320px;
     }
     footer {
         height: 150px;
