@@ -6,16 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/9126144eb8.js" crossorigin="anonymous"></script>
+    <!-- Title -->
     <title>Healthy Cooking Made Simple!</title>
 </head>
 
 <body>
     <header>
+        <!-- Page Logo -->
         <a href="index.html" id="title-logo">
             <h1>Healthy Cooking Made Simple!</h1>
         </a>
+        <!-- Toggle for mobile devices to collaps the naviagtion menu -->
         <input type="checkbox" id="nav-dropdown-toggle" name="nav-dropdown-toggle">
         <label for="nav-dropdown-toggle" class="nav-dropdown-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <!-- Navigation Menu -->
         <nav>
             <ul class="navigation-bar" id="navigation-bar">
                 <li><a href="index.html" class="active">Home</a></li>
@@ -26,7 +30,9 @@
         </nav>
     </header>
     <main>
+        <!-- Hero Image -->
         <section class="hero-image">
+            <!-- Cover Text Section -->
             <div class="cover-text">
                 <h2>Welcome!</h2>
                 <p>Hello and welcome to Healthy Cooking Made Simple! This is a website designed to help you eat better
@@ -34,12 +40,15 @@
                     hope you enjoy them.</p>
             </div>
         </section>
+        <!-- Container for main contenet below the hero image -->
         <div class="main-content" id="main-content">
+            <!-- Division created to contain resources -->
             <div class="resources-container">
                 <section id="sec-resources">
                     <h2 class="resources">Resources</h2>
                 </section>
                 <div class="aside-columns">
+                    <!-- Essentials Section -->
                     <aside class="essentials">
                         <h2>Essentials</h2>
                         <ul>
@@ -56,12 +65,13 @@
                         </ul>
                         <h2 class="content-bottom"></h2>
                     </aside>
-
+                    <!-- Top Tips Image -->
                     <div class="top-tips-image">
                         <aside class="aside-image">
                             <img src="assets/images/ba-basics-pans-knives-spoons-tools.jpeg"
                                 alt="cutting board with cooking equipment on it.">
                         </aside>
+                        <!-- Top Tips Section-->
                         <aside class="top-tips">
                             <h2>Top Tips</h2>
                             <p>The biggest tip that we can offer you is to calm yourself down before cooking and follow
@@ -72,9 +82,10 @@
                         </aside>
                     </div>
                 </div>
-
+                <!-- Newsletter Form -->
                 <section class="newsletter-form">
                     <h2 id="sign-up-heading">Sign up to our newsletter!</h2>
+                    <!-- Action Link sourced from Code Institute-->
                     <form method="POST" action="https://formdump.codeinstitute.net" id="newsletter-form">
                         <p>Why not sign up to our newsletter for updates on the latest recipes being added to our site,
                             we'll also offer tips and tricks to make the cooking process easier and the occasional give
@@ -83,18 +94,22 @@
                             <div class="sign-up-page">
                                 <input type="checkbox" id="show">
                                 <div class="news-content">
+                                    <!-- Newsletter User Input Section - Forename, Surname, Email-->
                                     <div class="newsletter-input">
                                         <table>
+                                            <!-- Label and input for the readers forname -->
                                             <tr>
                                                 <td><label class="sign-up-label">Foreame:</label></td>
                                                 <td><input type="text" class="bars" id="first-name" name="first-name"
                                                         placeholder="Forename"></td>
                                             </tr>
+                                            <!-- Label and input for the readers surname -->
                                             <tr>
                                                 <td><label class="sign-up-label">Surname:</label></td>
                                                 <td><input type="text" class="bars" id="surname" name="surname"
                                                         placeholder="Surname"></td>
                                             </tr>
+                                            <!-- Label and input for the readers email -->
                                             <tr>
                                                 <td><label class="sign-up-label">Email:</label></td>
                                                 <td><input type="email" class="bars" id="email" name="email"
@@ -102,36 +117,42 @@
                                             </tr>
                                         </table>
                                     </div>
-
+                                    <!-- Recipe Type the user would like to receive newsletters about-->
                                     <div class="newsletter-radio">
                                         <table>
+                                            <!-- Radio Button to be notified about Breakfast recipes -->
                                             <tr>
                                                 <td><label>Breakfast recipies</label></td>
                                                 <td><input type="radio" id="breakfast" name="recipe-preference"
                                                         required></td>
                                             </tr>
+                                            <!-- Radio Button to be notified about Lunch recipes -->
                                             <tr>
                                                 <td> <label>Lunch recipies</label></td>
                                                 <td><input type="radio" id="lunch" name="recipe-preference" required>
                                                 </td>
                                             </tr>
+                                            <!-- Radio Button to be notified about Dinner recipes -->
                                             <tr>
                                                 <td><label>Dinner recipies</label></td>
                                                 <td><input type="radio" id="dinner" name="recipe-preference" required>
                                                 </td>
                                             </tr>
+                                            <!-- Radio Button to be notified about all recipe types-->
                                             <tr>
                                                 <td><label>All</label></td>
                                                 <td><input type="radio" id="all" name="recipe-preference" required></td>
                                             </tr>
                                         </table>
                                     </div>
+                                    <!-- Sign Up Button-->
                                     <div class="newsletter-button">
                                         <input type="submit" class="newsletter-sign-up" value="Sign Up!">
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- Expand/Hide will display and hide recipe content when clicked-->
                         <label for="show" id="show-more">Expand/Hide</label>
                     </form>
                 </section>
@@ -139,6 +160,7 @@
         </div>
     </main>
     <footer>
+        <!-- Social Media Links -->
         <ul id="social-media-links">
             <li class="social-media"><a href="https://www.instagram.com" target="_blank"><i
                         class="fa-brands fa-instagram"></i></a></li>
