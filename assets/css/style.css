@@ -328,7 +328,7 @@ input[type="radio"]
     font-family: 'Montserrat', sans-serif;
 }
 /* Removing Capitalisation from Dinner Recipe List Items */
-.pesto-gnocchi li, .stir-fry li, .kimchi li{
+.pesto-gnocchi li, .chilli li, .kimchi-fried-rice li, .sausage-bake li, .broccoli-pesto-spaghetti li, .korean-pancakes li {
     text-transform: none;
     font-family: 'Montserrat', sans-serif;
 }
@@ -352,9 +352,18 @@ input[type="radio"]
     margin-bottom: 0;
 }
 /* Dinner Images */
-.pesto-gnocchi img, .stir-fry img, .kimchi img {
+.pesto-gnocchi img, .chilli img, .kimchi-fried-rice img, .sausage-bake img, .broccoli-pesto-spaghetti img, .korean-pancakes img {
     width: 100%;
     margin-bottom: 0;
+}
+/* Image Captions */
+figcaption {
+    background-color: #545F66;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
 }
 /* Styles Expand Button */
 #expand-checkbox-label {
@@ -411,13 +420,21 @@ input[type="radio"]
 #expand-checkbox-pesto-gnocchi {
     display: none;
 }
-#expand-checkbox-stir-fry {
+#expand-checkbox-kimchi-fried-rice {
     display: none;
 }
-#expand-checkbox-kimchi {
+#expand-checkbox-sausage-bake {
     display: none;
 }
-
+#expand-checkbox-broccoli-pesto-spaghetti {
+    display: none;
+}
+#expand-checkbox-korean-pancakes {
+    display: none;
+}
+#expand-checkbox-chilli {
+    display: none;
+}
 /* Hides Breakfast Recipe Content */
 .recipe-content-pancakes {
     display: none;
@@ -460,10 +477,19 @@ input[type="radio"]
 .recipe-content-pesto-gnocchi {
     display: none;
 }
-.recipe-content-stir-fry {
+.recipe-content-kimchi-fried-rice {
     display: none;
 }
-.recipe-content-kimchi {
+.recipe-content-sausage-bake {
+    display: none;
+}
+.recipe-content-broccoli-pesto-spaghetti {
+    display: none;
+}
+.recipe-content-korean-pancakes {
+    display: none;
+}
+.recipe-content-chilli {
     display: none;
 }
 /* Shows Breakfast Recipe Content When Clicked */
@@ -508,10 +534,19 @@ input[type="radio"]
 #expand-checkbox-pesto-gnocchi:checked~.recipe-content-pesto-gnocchi {
     display: block;
 }
-#expand-checkbox-stir-fry~.recipe-content-stir-fry {
+#expand-checkbox-kimchi-fried-rice:checked~.recipe-content-kimchi-fried-rice {
     display: block;
 }
-#expand-checkbox-kimchi:checked~.recipe-content-kimchi {
+#expand-checkbox-sausage-bake:checked~.recipe-content-sausage-bake {
+    display: block
+}
+#expand-checkbox-broccoli-pesto-spaghetti:checked~.recipe-content-broccoli-pesto-spaghetti {
+    display: block;
+}
+#expand-checkbox-korean-pancakes:checked~.recipe-content-korean-pancakes {
+    display: block;
+}
+#expand-checkbox-chilli:checked~.recipe-content-chilli {
     display: block;
 }
 /* Lunch Recipies Styles */
