@@ -387,7 +387,7 @@ input[type="radio"]
 .recipe-content-quesadilla {
     display: none;
 }
-/* Shows Recipe Content When Clicked */
+/* Shows Breakfast Recipe Content When Clicked */
 #expand-checkbox-pancakes:checked~.recipe-content-pancakes {
     display: block;
 }
