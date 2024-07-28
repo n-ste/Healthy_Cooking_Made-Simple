@@ -269,7 +269,7 @@ input[type="radio"]
     display: none;
 }
 /* Breakfast Recipies Styles  */
-    .breakfast-recipies {
+.breakfast-recipies {
     display: flex;
     flex-direction: column;
     width: 340px;
@@ -317,9 +317,21 @@ input[type="radio"]
 .lunch-recipies .lunch-row-one {
     width: 100%;
 }
-/* Removing Capitalisation from Recipe List Items */
+/* Removing Capitalisation from Breakfast Recipe List Items */
 .banana-pancakes li, .bacon-and-eggs li, .overnight-oats li, .breakfast-frittata li, .blueberry-ricotta li, .breakfast-quesadillas li {
     text-transform: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+/* Removing Capitalisation from Lunch Recipe List Items */
+.caesar-salad li, .halloumi-wrap li, .tuna-bean li, .pizza-toast li, .cheese-toastie li, .noodle-soup li {
+    text-transform: none;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Removing Capitalisation from Dinner Recipe List Items */
+.pesto-gnocchi li {
+    text-transform: none;
+    font-family: 'Montserrat', sans-serif;
 }
 /* Breakfast Hero Images */
 .hero-image2 {
@@ -335,6 +347,17 @@ input[type="radio"]
     width: 100%;
     margin-bottom: 0;
 }
+/* Lunch Images */
+.caesar-salad img, .halloumi-wrap img, .tuna-bean img, .pizza-toast img, .cheese-toastie img, .noodle-soup img {
+    width: 100%;
+    margin-bottom: 0;
+}
+/* Dinner Images */
+.pesto-gnocchi img {
+    width: 100%;
+    margin-bottom: 0;
+}
+
 /* Styles Expand Button */
 #expand-checkbox-label {
     background-color: #545F66;
@@ -349,7 +372,7 @@ input[type="radio"]
     border-top: 3px solid #D0F4EA;
 }
 
-/* Hides Checkbox */
+/* Hides Breakfast Checkbox */
 #expand-checkbox-pancakes {
     display: none;
 }
@@ -368,7 +391,30 @@ input[type="radio"]
 #expand-checkbox-quesadilla {
     display: none;
 }
-/* Hides Recipe Content */
+/* Hides Lunch Checkbox */
+#expand-checkbox-caesar-salad {
+    display: none;
+}
+#expand-checkbox-halloumi-wrap {
+    display: none;
+}
+#expand-checkbox-tuna-bean {
+    display: none;
+}
+#expand-checkbox-pizza-toast {
+    display: none;
+}
+#expand-checkbox-cheese-toastie {
+    display: none;
+}
+#expand-checkbox-noodle-soup {
+    display: none;
+}
+/* Hides Dinner Checkbox */
+#expand-checkbox-pesto-gnocchi {
+    display: none;
+}
+/* Hides Breakfast Recipe Content */
 .recipe-content-pancakes {
     display: none;
 }
@@ -385,6 +431,29 @@ input[type="radio"]
     display: none;
 }
 .recipe-content-quesadilla {
+    display: none;
+}
+/* Hides Lunch Recipe Content */
+.recipe-content-caesar-salad {
+    display: none;
+}
+.recipe-content-halloumi-wrap {
+    display: none;
+}
+.recipe-content-tuna-bean {
+    display: none;
+}
+.recipe-content-pizza-toast {
+    display: none;
+}
+.recipe-content-cheese-toastie {
+    display: none;
+}
+.recipe-content-noodle-soup {
+    display: none;
+}
+/* Hides Dinner Recipe Content */
+.recipe-content-pesto-gnocchi {
     display: none;
 }
 /* Shows Breakfast Recipe Content When Clicked */
@@ -404,6 +473,29 @@ input[type="radio"]
     display: block;
 }
 #expand-checkbox-quesadilla:checked~.recipe-content-quesadilla {
+    display: block;
+}
+/* Shows Lunch Recipe Content When Clicked */
+#expand-checkbox-caesar-salad:checked~.recipe-content-caesar-salad {
+    display: block;
+}
+#expand-checkbox-halloumi-wrap:checked~.recipe-content-halloumi-wrap {
+    display: block;
+}
+#expand-checkbox-tuna-bean:checked~.recipe-content-tuna-bean {
+    display: block;
+}
+#expand-checkbox-pizza-toast:checked~.recipe-content-pizza-toast {
+    display: block;
+}
+#expand-checkbox-cheese-toastie:checked~.recipe-content-cheese-toastie {
+    display: block;
+}
+#expand-checkbox-noodle-soup:checked~.recipe-content-noodle-soup {
+    display: block;
+}
+/* Shows Dinner Recipe Content When Clicked */
+#expand-checkbox-pesto-gnocchi~.recipe-content-pesto-gnocchi {
     display: block;
 }
 /* Lunch Recipies Styles */
@@ -577,7 +669,7 @@ footer .social-media {
     .breakfast-recipies, .lunch-recipies, .dinner-recipies {
         width: 1140px;
     }
-    .breakfast-container {
+    .breakfast-container, .lunch-container, .dinner-container {
         gap: 2em;
     }
     #recipe-item {
