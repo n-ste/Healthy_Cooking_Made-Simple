@@ -11,9 +11,9 @@
 
 <body>
     <header>
-        <li><a href="index.html" class="active" id="title-logo">
-                <h1>Healthy Cooking Made Simple!</h1>
-            </a></li>
+        <a href="index.html" id="title-logo">
+            <h1>Healthy Cooking Made Simple!</h1>
+        </a>
         <input type="checkbox" id="nav-dropdown-toggle" name="nav-dropdown-toggle">
         <label for="nav-dropdown-toggle" class="nav-dropdown-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
@@ -29,28 +29,29 @@
         <section class="hero-image2">
             <div class="cover-text">
                 <h2>Why not try out our range of delicious breakfast recipies!</h2>
-        </section>
+            </div>
         </section>
         <div class="main-content" id="main-content">
+            <section class="section-one">
+                <h2>Section</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam reiciendis praesentium porro
+                    accusantium, veritatis dolore quos tenetur ut, debitis in ducimus earum maiores dicta similique
+                    vel
+                    temporibus facere error nisi!</p>
+                <h2 class="content-bottom"></h2>
+            </section>
             <div class="breakfast-recipies">
-                <section class="section-one">
-                    <h2>Section</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam reiciendis praesentium porro
-                        accusantium, veritatis dolore quos tenetur ut, debitis in ducimus earum maiores dicta similique
-                        vel
-                        temporibus facere error nisi!</p>
-                    <h2 class="content-bottom"></h2>
-                </section>
                 <div class="breakfast-row-one" id="breakfast-row-one">
-                    <aside class="banana-pancakes">
-                        <h2>Banana Pancakes</h2>
+                    <aside class="banana-pancakes" id="recipe-item">
+                        <h2>Banana and Banana Pancakes</h2>
                         <img src=".//assets/images/banana_pancakes_62919_16x9.jpg"
                             alt="An image of a plate full of banana pancakes.">
-                        <p>These quick and easy banana pancakes are dairy-free and egg-free. Mashed banana is an egg
-                            substitute that works really well in pancakes, and makes them taste even better. They can be
-                            ready in just 10 minutes, and wolfed down in one! Perfect for busy mornings.</p>
                         <input type="checkbox" id="expand-checkbox-pancakes">
                         <div class="recipe-content-pancakes">
+                            <p>These quick and easy banana pancakes are dairy-free and egg-free. Mashed banana is an egg
+                                substitute that works really well in pancakes, and makes them taste even better. They
+                                can be ready in just 10 minutes, and wolfed down in one! Perfect for busy mornings.</p>
+
                             <p>Each pancake (without the optional toppings) provides 119 kcal, 2.5g protein, 22g
                                 carbohydrates
                                 (of which 5g sugars), 2g fat (of which 1.5g saturates), 1.5g fibre and 0.22g salt.</p>
@@ -62,45 +63,45 @@
                                 <li>120ml/4¼fl oz oat milk (or other plant-based milk)</li>
                                 <li>3 tsp coconut or vegetable oil</li>
                             </ul>
-                            <h3>To serve (optional)</h4>
-                                <ul>
-                                    <li> handful blueberries</li>
-                                    <li> 1 banana, sliced</li>
-                                    <li> maple syrup (or honey if you're not vegan), to drizzle</li>
-                                    <li> dollop coconut yoghurt?</li>
-                                </ul>
-                                <h3>Method</h3>
-                                <ol>
-                                    <li>Roughly chop the bananas and add to a blender with the flour, baking powder and
-                                        oat
-                                        milk. Blend until smooth. Alternatively, mash the banana thoroughly on a plate,
-                                        then
-                                        transfer to a bowl and whisk in the other ingredients until smooth. </li>
-                                    <li>Heat a teaspoon of the oil in a small frying pan over a medium–high heat and
-                                        spoon
-                                        the mixture into the pan to make two pancakes, each about 10cm/4in in diameter –
-                                        you
-                                        will need about a tablespoon of mixture per pancake.</li>
-                                    <li>Cook for around 2 minutes on each side, or until golden-brown, adding more oil
-                                        if
-                                        needed, then keep warm. Repeat until you have made all the pancakes. </li>
-                                    <li>To serve, divide the pancakes between two plates and top with the banana,
-                                        blueberries, maple syrup and coconut yoghurt. Enjoy while still warm. </li>
-                                </ol>
+                            <h3>To serve (optional)</h3>
+                            <ul>
+                                <li> handful blueberries</li>
+                                <li> 1 banana, sliced</li>
+                                <li> maple syrup (or honey if you're not vegan), to drizzle</li>
+                                <li> dollop coconut yoghurt?</li>
+                            </ul>
+                            <h3>Method</h3>
+                            <ol>
+                                <li>Roughly chop the bananas and add to a blender with the flour, baking powder and
+                                    oat
+                                    milk. Blend until smooth. Alternatively, mash the banana thoroughly on a plate,
+                                    then
+                                    transfer to a bowl and whisk in the other ingredients until smooth. </li>
+                                <li>Heat a teaspoon of the oil in a small frying pan over a medium–high heat and
+                                    spoon
+                                    the mixture into the pan to make two pancakes, each about 10cm/4in in diameter –
+                                    you
+                                    will need about a tablespoon of mixture per pancake.</li>
+                                <li>Cook for around 2 minutes on each side, or until golden-brown, adding more oil
+                                    if
+                                    needed, then keep warm. Repeat until you have made all the pancakes. </li>
+                                <li>To serve, divide the pancakes between two plates and top with the banana,
+                                    blueberries, maple syrup and coconut yoghurt. Enjoy while still warm. </li>
+                            </ol>
                         </div>
                         <label for="expand-checkbox-pancakes" id="expand-checkbox-label">Expand/Hide</label>
                     </aside>
-                    <aside class="bacon-and-eggs">
+                    <aside class="bacon-and-eggs" id="recipe-item">
                         <h2>Fried bacon with poached egg and tomatoes</h2>
                         <img src="./assets/images/pan-fried_bacon_with_76907_16x9.jpg"
                             alt="An image of a place with eggs and bacon on it.">
-                        <p>You don’t have to give up your bacon and eggs when you’re dieting – just slightly change the
-                            way
-                            you cook it. Choose good lean back bacon and partner it with poached eggs for protein and
-                            fresh
-                            nutritious veg.</p>
                         <input type="checkbox" id="expand-checkbox-bacon-and-eggs">
                         <div class="recipe-content-bacon-and-eggs">
+                            <p>You don’t have to give up your bacon and eggs when you’re dieting – just slightly change
+                                the way you cook it. Choose good lean back bacon and partner it with poached eggs for
+                                protein
+                                and fresh nutritious veg.</p>
+
                             <p>With a GI of 45 this meal is high protein, low GI and provides 264 kcal per portion.</p>
                             <h3>Ingredients</h3>
                             <ul>
@@ -149,15 +150,17 @@
                     </aside>
                 </div>
                 <div class="breakfast-row-two" id="breakfast-row-two">
-                    <aside class="overnight-oats">
-                        <h2>Overnight Oats</h2>
+                    <aside class="overnight-oats" id="recipe-item">
+                        <h2>Blueberry Overnight Oats</h2>
                         <img src="./assets/images/overnight_muesli_with_57876_16x9.jpg"
                             alt="An image of bowl containing overnight oats.">
-                        <p>Prepare this blueberry and apple overnight oats recipe for a super-quick and tasty breakfast
-                            the
-                            next morning.</p>
                         <input type="checkbox" id="expand-checkbox-oats">
                         <div class="recipe-content-oats">
+                            <p>Prepare this blueberry and apple overnight oats recipe for a super-quick and tasty
+                                breakfast
+                                the
+                                next morning.</p>
+
                             <p>With a GI of 46 this meal is high protein, low GI and provides 335 kcal per portion.</p>
                             <h3>Ingedients</h3>
                             <ul>
@@ -182,14 +185,16 @@
                         </div>
                         <label for="expand-checkbox-oats" id="expand-checkbox-label">Expand/Hide</label>
                     </aside>
-                    <aside class="breakfast-frittata">
+                    <aside class="breakfast-frittata" id="recipe-item">
                         <h2>All-day breakfast frittata</h2>
                         <img src="./assets/images/all-day_breakfast_12416_16x9.jpg"
                             alt="An image of plate of a breakfast frittata.">
-                        <p>We’ve packed loads of extra veggies into this easy frittata so you can get the jump on your
-                            5-a-day from the get go. But it’s also great cold in a sandwich.</p>
                         <input type="checkbox" id="expand-checkbox-frittata">
                         <div class="recipe-content-frittata">
+                            <p>We’ve packed loads of extra veggies into this easy frittata so you can get the jump on
+                                your
+                                5-a-day from the get go. But it’s also great cold in a sandwich.</p>
+
                             <p>Each serving provides 290 kcal, 24g protein, 11g carbohydrate (of which 3g sugars), 16g
                                 fat
                                 (of which 5g saturates), 3g fibre and 1.4g salt.</p>
@@ -255,21 +260,22 @@
                     </aside>
                 </div>
                 <div class="breakfast-row-three" id="breakfast-row-three">
-                    <aside class="blueberry-ricotta">
+                    <aside class="blueberry-ricotta" id="recipe-item">
                         <h2>Blueberry Ricotta Pot</h2>
                         <img src="./assets/images/ricotta_pots_with_13643_16x9.jpg"
                             alt="An image of blueberry ricotta pot.">
-                        <p>Ricotta is eaten for breakfast in Italy and also works well as a snack. Cinnamon adds
-                            sweetness
-                            without sugar and blueberries are a relatively low-sugar fruit. Honey tastes sweeter
-                            than
-                            sugar
-                            and you need just a spoonful. Briefly dip your teaspoon in very hot water to help it
-                            slip
-                            off
-                            easily.</p>
                         <input type="checkbox" id="expand-checkbox-ricotta">
                         <div class="recipe-content-ricotta">
+                            <p>Ricotta is eaten for breakfast in Italy and also works well as a snack. Cinnamon adds
+                                sweetness
+                                without sugar and blueberries are a relatively low-sugar fruit. Honey tastes sweeter
+                                than
+                                sugar
+                                and you need just a spoonful. Briefly dip your teaspoon in very hot water to help it
+                                slip
+                                off
+                                easily.</p>
+
                             <p>Each serving provides 211 kcal, 10g protein, 16.5g carbohydrates (of which 16.5g
                                 sugars),
                                 11g
@@ -296,17 +302,17 @@
                         </div>
                         <label for="expand-checkbox-ricotta" id="expand-checkbox-label">Expand/Hide</label>
                     </aside>
-                    <aside class="breakfast-quesadillas">
+                    <aside class="breakfast-quesadillas" id="recipe-item">
                         <h2>Breakfast Quesadillas (V)</h2>
                         <img src="./assets/images/breakfast_quesadillas_82028_16x9.jpg"
                             alt="An image of a breakfast quesadilla on a cutting board.">
-                        <p>For a leisurely weekend brunch or a light meal any day of the week, these breakfast
-                            quesadillas
-                            are filled with bacon and scrambled eggs and served with colourful salsas, guacamole and
-                            refried
-                            beans.</p>
                         <input type="checkbox" id="expand-checkbox-quesadilla">
                         <div class="recipe-content-quesadilla">
+                            <p>For a leisurely weekend brunch or a light meal any day of the week, these breakfast
+                                quesadillas
+                                are filled with bacon and scrambled eggs and served with colourful salsas, guacamole and
+                                refried
+                                beans.</p>
                             <h3>Ingredients</h3>
                             <ol>
                                 <li>unsalted butter, for cooking </li>
@@ -399,6 +405,7 @@
                     </aside>
                 </div>
             </div>
+        </div>
     </main>
     <footer>
         <ul id="social-media-links">

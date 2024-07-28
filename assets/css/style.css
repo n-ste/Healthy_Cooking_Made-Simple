@@ -34,7 +34,9 @@ header {
 header h1 {
     padding: 0 20px 20px 20px;
 }
-
+header a {
+    text-decoration: none;
+}
 #title-logo {
     margin: 0;
     padding: 0;
@@ -267,7 +269,7 @@ input[type="radio"]
     display: none;
 }
 /* Breakfast Recipies Styles */
-.breakfast-recipies {
+    .breakfast-recipies {
     display: flex;
     flex-direction: column;
     width: 330px;
@@ -455,7 +457,7 @@ footer .social-media {
     .main-content {
         display: flex;
         flex-direction: column;
-        padding: 50px 100px;
+        padding: 50px;
     }
 
     .aside-columns {
@@ -480,11 +482,38 @@ footer .social-media {
 
     .newsletter {
         padding: 20px 33%;
-}
-.breakfast-recipies {
-    display: flex;
-    flex-wrap: wrap;
-}
+    }
+
+    .breakfast-recipies {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 3rem;
+    }
+    .breakfast-row-one {
+        display: flex;
+        gap: 3em;
+        width: 100%;
+    }
+    .breakfast-row-two {
+        display: flex;
+        flex-direction: row;
+        gap: 3em;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .breakfast-row-three {
+        display: flex;
+        flex-direction: row;
+        gap: 3em;
+        width: 100%;
+    }
+    #recipe-item {
+        display: block;
+        width: 50%;
+        margin-bottom: 0;
+    }
 }
 /* Responsive Layout for Laptops */
 @media screen and (min-width: 992px) {
@@ -521,5 +550,5 @@ footer .social-media {
     }
     .newsletter {
         padding: 20px 40%;
-}
+    }
 }
