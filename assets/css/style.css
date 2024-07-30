@@ -702,13 +702,13 @@ footer .social-media {
     .breakfast-recipies, .lunch-recipies, .dinner-recipies {
         display: flex;
         flex-direction: column;
-        width: 900px;
+        max-width: 668px;
     }
     /* Styling for Recipe Items */
     #recipe-item {
         gap: 3em;
         margin: 0 0;
-        width: 330px;
+        width: 310px;
     }    
 }
 /* Responsive Layout for Laptops */
@@ -755,21 +755,20 @@ footer .social-media {
     }
     /* Styling for Main Content Container */
     .main-content {
-        padding: 50px 120px;
+        padding: 50px 200px;
     }
     /* Styling for Meal Recipe Type*/
     .breakfast-recipies, .lunch-recipies, .dinner-recipies {
-        max-width: 960px;
+        max-width: 800px;
     }
     /* Styling for Meal Type Containers */
     .breakfast-container, .lunch-container, .dinner-container {
-        gap: 2em;
+        gap: 80px;
+        max-width: 800px;
     }
     /* Styling for Recipe Items */
     #recipe-item {
-        padding-right: 10px;
-        width: 320px;
-        flex: 2;
+        width: 360px;
     }
     /* Styling for Footer on Desktops */
     footer {
