@@ -201,6 +201,7 @@ aside li {
 .resources, .essentials, .aside-image img, .top-tips, .newsletter-form {
     box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
 }
+
 /* Newsletter Signup Form */
 .newsletter {
         background-color: #829399;
@@ -295,20 +296,20 @@ input[type="radio"]
 .news-content {
     display: none;
 }
-/* Breakfast Recipies Styles  */
-.breakfast-recipies {
+/* Breakfast Recipes Styles  */
+.breakfast-recipes {
     display: flex;
     flex-direction: column;
     width: 340px;
 }
-/* Lunch Recipies Styles  */
-.lunch-recipies {
+/* Lunch Recipes Styles  */
+.lunch-recipes {
     display: flex;
     flex-direction: column;
     width: 340px;
 }
-/* Dinner Recipies Styles  */
-.dinner-recipies {
+/* Dinner Recipes Styles  */
+.dinner-recipes {
     display: flex;
     flex-direction: column;
     width: 340px;
@@ -322,27 +323,27 @@ input[type="radio"]
     padding: 5px 15px;
 }
 /* Breakfast Lists */
-.breakfast-recipies ol, .breakfast-recipies ul {
+.breakfast-recipes ol, .breakfast-recipes ul {
     background-color: #829399;
 }
 /* Lunch Lists */
-.lunch-recipies ol, .lunch-recipies ul {
+.lunch-recipes ol, .lunch-recipes ul {
     background-color: #829399;
 }
 /* Dinner Lists */
-.dinner-recipies ol, .dinner-recipies ul {
+.dinner-recipes ol, .dinner-recipes ul {
     background-color: #829399;
 }
 /* Breakfast Recipes Division */
-.breakfast-recipies .breakfast-row {
+.breakfast-recipes .breakfast-row {
     width: 100%;
 }
 /* Lunch Recipes Division */
-.lunch-recipies .lunch-row {
+.lunch-recipes .lunch-row {
     width: 100%;
 }
 /* Dinner Recipes Division */
-.dinner-recipies .dinner-row {
+.dinner-recipes .dinner-row {
     width: 100%;
 }
 /* Removing Capitalisation from Breakfast Recipe List Items */
@@ -580,7 +581,7 @@ figcaption {
 #expand-checkbox-chilli:checked~.recipe-content-chilli {
     display: block;
 }
-/* Lunch Recipies Styles */
+/* Lunch Recipes Styles */
 .hero-image3 {
     width: 100%;
     height: 700px;
@@ -589,7 +590,7 @@ figcaption {
     z-index: -1;
     border-bottom: 3px solid #D0F4EA;
 }
-/* Dinner Recipies Styles */
+/* Dinner Recipes Styles */
 .hero-image4 {
     width: 100%;
     height: 700px;
@@ -699,7 +700,7 @@ footer .social-media {
         width: 100vw;
         gap: 3em;
     }
-    .breakfast-recipies, .lunch-recipies, .dinner-recipies {
+    .breakfast-recipes, .lunch-recipes, .dinner-recipes {
         display: flex;
         flex-direction: column;
         max-width: 668px;
@@ -731,10 +732,16 @@ footer .social-media {
         padding: 50px 90px;
     }
     /* Styling for Recipe Meal Type Containers */
-    .breakfast-recipies, .lunch-recipies, .dinner-recipies {
+    .breakfast-recipes, .lunch-recipes, .dinner-recipes {
         display: flex;
         flex-direction: column;
         width: 842px;
+        align-self: center;
+    }
+      /* Styling for Meal Type Containers */
+      .breakfast-container, .lunch-container, .dinner-container {
+        gap: 80px;
+        max-width: 800px;
     }
     /* Styling for Recipe Items */
     #recipe-item {
@@ -758,7 +765,7 @@ footer .social-media {
         padding: 50px 200px;
     }
     /* Styling for Meal Recipe Type*/
-    .breakfast-recipies, .lunch-recipies, .dinner-recipies {
+    .breakfast-recipes, .lunch-recipes, .dinner-recipes {
         max-width: 800px;
     }
     /* Styling for Meal Type Containers */
