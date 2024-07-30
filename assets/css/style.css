@@ -759,7 +759,7 @@ footer .social-media {
     }
     /* Styling for Meal Recipe Type*/
     .breakfast-recipies, .lunch-recipies, .dinner-recipies {
-        width: 1140px;
+        max-width: 960px;
     }
     /* Styling for Meal Type Containers */
     .breakfast-container, .lunch-container, .dinner-container {
