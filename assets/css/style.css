@@ -373,16 +373,19 @@ input[type="radio"]
 .banana-pancakes img, .bacon-and-eggs img, .overnight-oats img, .breakfast-frittata img, .blueberry-ricotta img, .breakfast-quesadillas img {
     width: 100%;
     margin-bottom: 0;
+    background-color: #829399;
 }
 /* Lunch Images */
 .caesar-salad img, .halloumi-wrap img, .tuna-bean img, .pizza-toast img, .cheese-toastie img, .noodle-soup img {
     width: 100%;
     margin-bottom: 0;
+    background-color: #829399;
 }
 /* Dinner Images */
 .pesto-gnocchi img, .chilli img, .kimchi-fried-rice img, .sausage-bake img, .broccoli-pesto-spaghetti img, .korean-pancakes img {
     width: 100%;
     margin-bottom: 0;
+    background-color: #829399;
 }
 /* Image Captions */
 figcaption {
@@ -766,6 +769,7 @@ footer .social-media {
     #recipe-item {
         padding-right: 10px;
         width: 320px;
+        flex: 2;
     }
     /* Styling for Footer on Desktops */
     footer {
