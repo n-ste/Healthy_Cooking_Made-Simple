@@ -158,7 +158,7 @@ aside li {
 /* Hero Image */
 .hero-image {
     width: 100%;
-    height: 700px;
+    height: 400px;
     margin: 0;
     background: url(../images/top-view-table-full-delicious-food-composition.jpg) no-repeat center center/cover;
     z-index: -1;
@@ -166,12 +166,10 @@ aside li {
 }
 /* Cover Text Styles */
 .cover-text {
+    position: relative;
     width: 90%;
     left: 5%;
-    position: relative;
-    padding: 125px 0 0 0;
-    top: 200px;
-
+    top: 35px;
 }
 /* Cover Text H2 Heading */
 .cover-text h2 {
@@ -364,7 +362,7 @@ input[type="radio"]
 /* Breakfast Hero Images */
 .hero-image2 {
     width: 100%;
-    height: 700px;
+    height: 400px;
     margin: 0;
     background: url(../images/turkey-sweet-potato-breakfast-hash.webp) no-repeat center center/cover;
     z-index: -1;
@@ -584,7 +582,7 @@ figcaption {
 /* Lunch Recipes Styles */
 .hero-image3 {
     width: 100%;
-    height: 700px;
+    height: 400px;
     margin: 0;
     background: url(../images/sweet-spicy-glazed-salmon-veggies.webp) no-repeat center center/cover;
     z-index: -1;
@@ -593,7 +591,7 @@ figcaption {
 /* Dinner Recipes Styles */
 .hero-image4 {
     width: 100%;
-    height: 700px;
+    height: 400px;
     margin: 0;
     background: url(../images/spaghetti-meatballs-wordpress.webp) no-repeat center center/cover;
     z-index: -1;
@@ -658,7 +656,7 @@ footer .social-media {
         left: 5%;
         position: relative;
         padding: 125px 0 0 0;
-        top: 350px;
+        top: 50px;
     }
     /* Styling for Main Content Container */
     .main-content {
@@ -725,7 +723,7 @@ footer .social-media {
         left: 10%;
         position: relative;
         padding: 125px 0 0 0;
-        top: 360px;
+        top: 60px;
     }
     /* Styling for Main Content Container */
     .main-content {
@@ -758,7 +756,7 @@ footer .social-media {
         left: 15%;
         position: relative;
         padding: 125px 0 0 0;
-        top: 360px;
+        top: 30px;
     }
     /* Styling for Main Content Container */
     .main-content {
