@@ -49,12 +49,21 @@ Like with the fonts I didn't want to have too many colours in my project as I th
 * I opted to have a white font colour as I found this provided a great contrast to the header, footer and paragraph section background colours.
 * The final colour I selected was always going to be a light blue which I only used to provide a border to the bottom of the header, and paragraph sections and the top of the footer for for this I chose #D0F4EA. 
 ![Website Colour Scheme](docs/color-scheme/colour-scheme.jpg)
-## Images
-## Features
-## Home
-## Breakfast Recipes
-## Lunch Recipes
-## Dinner Recipes
-## Accessibility
+### Wideframes
+#### Mobile Devices (Screensize less than 768px)
+![Mobile display for the home, breakfast, lunch and dinner pages](docs/wideframes/mobile-wideframes.png)
+#### Tablets (Screensize greater than 768px)
+![Tablet display for the home, breakfast, lunch and dinner pages](docs/wideframes/tablet-wideframes.png)
+#### Laptops (Screensize greater than 992px)
+![Laptop display for the home, breakfast, lunch and dinner pages](docs/wideframes/laptop-wideframes.png)
+#### Desktops (Screensize greater than 1200px)
+![Desktop display for the home, breakfast, lunch and dinner pages](docs/wideframes/desktop-wideframes.png)
+### Images
+### Features
+### Home
+### Breakfast Recipes
+### Lunch Recipes
+### Dinner Recipes
+### Accessibility
 
 - - -
