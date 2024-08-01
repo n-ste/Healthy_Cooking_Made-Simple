@@ -1,5 +1,7 @@
 # Healthy Cooking Made Simple!
 
+![Responsive Web Design](docs/responsive-design/responsive-design.png)
+
 ## Contents
 
 * [User Experience](#user-experience)
@@ -192,16 +194,23 @@ This website was built using HTML and styled with CSS.
 
 ### Frameworks and Libraries
 
-* Gitpod
-* Github - Used to store and build my repository and to deploy my website.
-* Google Developer Tools - To allow me to find out what might be preventing the bugs in my code.
-* Google Fonts - I used the fonts 'Kanit', and 'Montserrat'.
-* Balsamiq - I used Balsamiq to produce wideframes for my website and give me an idea of what might work and what might not.
-* Font Awesome - Font Awesome was used to download the icons for my navigation and social media links.
+* [Gitpod](https://www.gitpod.io/) - Used as the workspace implement changes to my website.
+* [Github](https://github.com/) - Used to store and build my repository and to deploy my website.
+* [Google Developer Tools](https://developer.chrome.com/docs/devtools) - To allow me to find out what might be preventing the bugs in my code.
+* [Google Fonts](https://fonts.google.com/) - I used the fonts 'Kanit', and 'Montserrat'.
+* [Balsamiq](https://balsamiq.com/) - I used Balsamiq to produce wideframes for my website and give me an idea of what might work and what might not.
+* [Font Awesome](https://fontawesome.com/) - Font Awesome was used to download the icons for my navigation and social media links.
+* [Am I Responsive?](https://ui.dev/amiresponsive) - Used to show how the webiste will look on different device types.
+* [StackOverflow](https://stackoverflow.com/) - Used to troubleshoot and for help with understanding concepts.
+* [W3Schools](https://www.w3schools.com/) - Used to troubleshoot and for help with understanding concepts.
 
 ## Deployment and Local Environment
 
 ### Deployment
+
+### How to Fork
+
+### How to Clone
 
 ### Local Environment
 
