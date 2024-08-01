@@ -50,6 +50,8 @@ Like with the fonts I didn't want to have too many colours in my project as I th
 * The final colour I selected was always going to be a light blue which I only used to provide a border to the bottom of the header, and paragraph sections and the top of the footer for for this I chose #D0F4EA. 
 ![Website Colour Scheme](docs/color-scheme/colour-scheme.jpg)
 ### Wideframes
+* To give myself an idea of how I'd like the website to look I produced wideframes through the use of Balsamiq, this allowed me to visualise what I wanted the website to look like before it was created and prompted me to style it accordingly.
+
 #### Mobile Devices (Screensize less than 768px)
 ![Mobile display for the home, breakfast, lunch and dinner pages](docs/wideframes/mobile-wideframes.png)
 #### Tablets (Screensize greater than 768px)
