@@ -694,7 +694,6 @@ footer .social-media {
     .breakfast-container, .lunch-container, .dinner-container {
         display: flex;
         flex-wrap: wrap; 
-        flex: wrap;
         width: 100vw;
         gap: 3em;
     }

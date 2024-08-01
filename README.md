@@ -228,25 +228,55 @@ As we're using Github to deploy the site we'll do this through pages.
 
 ### How to Clone
 
+1. To clone the repository first you'd need to visit the [repository page.](https://github.com/n-ste/Healthy_Cooking_Made-Simple)
+
+2. You'd then click the green button that says ["Code"](docs/deployment/deploy-clone.png), this should open a box which will say "Clone" on it. Copy the Link that appears.
+
+3. Then you can go to your terminal and type "git clone (paste in the link that you copied earlier) and you should have successfully cloned the repository.
+
 ## Testing
 
 ### HTML Validation
 
+* [Home Page HTML](docs/validation/html-home.png)
+
+* [Breakfast Recipe Page](docs/validation/html-breakfast.png)
+
+* [Lunch Recipe Page](docs/validation/html-lunch.png)
+
+* [Dinner Recipe Page](docs/validation/html-dinner.png)
+
+* [About Page](docs/validation/html-about.png)
+
 ### CSS Validation
+
+* [Stylesheet](docs/validation/css-validator.png)
 
 ### Bugs
 
+* Home Page HTML
+  * There were 2 warnings that came up in the validation test for the index page. These advised that I shouldn't be using a heading with any content in my code.
+  * [Warnings for Home Page](docs/validation/warning-index.png)
+
+* Breakfast Recipes, Lunch and Dinner Recipe Pages
+  * There were 11 warnings issued over reusing the same ID for recipe item and expand-checkbox-label.
+  * [Warnings for Breakfast Recipes, Lunch and Dinner Recipe Page](docs/validation/warning-breakfast.png)
+
+* About Page
+  * A warning was issued for the same reason that popped up in the home page validation section. It advised I shouldn't be using a h2 element without any content, but what the validator doesn't see is that this is for the styling of the hero image inside the h2 element.
+  * [Warnings for About Page](docs/validation/warning-index.png)
+
 ### Resolutions
 
+* Home Page HTML
+  * Though I understand the reason for the errors in the home page, I've opted to leave these as they are as I did this purposefully for the styling that came with using the h2 element.
+
+* Breakfast Recipes, Lunch and Dinner Recipe Pages
+  * I decided to carry and leave the IDs as they were as once again this was purposeful for styling purposes. the expand-label checkbox was used to enable the user to show and hide more content and I felt there was no reason to change all of these to product the same output.
+
+![Index Warnings](docs/validation/warning-index.png)
+
 ### Known Bugs
-
-### Home Page
-
-### Breakfast Recipes Page
-
-### Lunch Recipes Page
-
-### Dinner Recipes Page
 
 ## Credits
 
@@ -354,7 +384,7 @@ As we're using Github to deploy the site we'll do this through pages.
 
 * About Page
 
-  * [About Page Hero Image - mywholekitchen.com](https://www.mywholekitchen.com/) 
+  * [About Page Hero Image - mywholekitchen.com](https://www.mywholekitchen.com/)
 
 ### Acknowledgements
 
