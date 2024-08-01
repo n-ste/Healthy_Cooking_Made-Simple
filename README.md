@@ -18,9 +18,11 @@
   * [Languages](#languages)
   * [Frameworks and Libraries](#frameworks-and-libraries)
 
-* [Deployment and Local Environment](#deployment-and-local-environment)
+* [Deployment and Local Development](#deployment-and-local-development)
   * [Deployment](#deployment)
   * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    *[How to Clone](#how-to-clone)
 
 * [Testing](#testing)
   * [HTML Validation](#html-validation)
@@ -202,7 +204,7 @@ This website was built using HTML and styled with CSS.
 * [StackOverflow](https://stackoverflow.com/) - Used to troubleshoot and for help with understanding concepts.
 * [W3Schools](https://www.w3schools.com/) - Used to troubleshoot and for help with understanding concepts.
 
-## Deployment and Local Environment
+## Deployment and Local Development
 
 ### Deployment
 
@@ -293,6 +295,8 @@ As we're using Github to deploy the site we'll do this through pages.
 ### Code
 
 * [StackOverflow - Ignore Whitespace on Newsletter Form](https://stackoverflow.com/questions/13766015/is-it-possible-to-configure-a-required-field-to-ignore-white-space)
+
+* Code Institute Love Running Project - Concept for the Navigation and Forms.
 
 ### Content
 
@@ -398,4 +402,6 @@ As we're using Github to deploy the site we'll do this through pages.
 
 ### Acknowledgements
 
-* fhghghg.
+First I'd like to acknowledge everyone involved in creating the Code Institute learning videos, which I've found invaluable. 
+
+I'd also like to give a special mention to my mentor Jubril Akolade for providing me with advise and feedback on this project. 
