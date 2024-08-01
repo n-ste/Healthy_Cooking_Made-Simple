@@ -20,7 +20,7 @@
 
 * [Deployment and Local Environment](#deployment-and-local-environment)
   * [Deployment](#deployment)
-  * [Local Environment](#local-environment)
+  * [Local Development](#local-development)
 
 * [Testing](#testing)
   * [HTML Validation](#html-validation)
@@ -28,10 +28,8 @@
   * [Bugs](#bugs)
   * [Resolutions](#resolutions)
   * [Known Bugs](#known-bugs)
-  * [Home Page](#home-page)
-  * [Breakfast Recipes Page](#breakfast-recipes-page)
-  * [Lunch Recipes Page](#lunch-recipes-page)
-  * [Dinner Recipes Page](#dinner-recipes-page)
+    * [All Pages - Mobile](#all-pages---mobile)
+    * [All Pages - Desktop](#all-pages---desktop)
 
 * [Credits](#credits)
   * [Code](#code)
@@ -277,6 +275,18 @@ As we're using Github to deploy the site we'll do this through pages.
 ![Index Warnings](docs/validation/warning-index.png)
 
 ### Known Bugs
+
+#### All Pages - Mobile
+
+* Lighthouse
+  * The known bugs for the home page is mostly the performance. I ran a check on this through Lighthouse on Chrome and found that the performance came out with a score of 75. While this isn't a terrible number, I thought this could definately be better. I solved this by lowering the image quality of the images on the webpage but found that negatively impacted the quality and decided that I could settle for the performance not being so great.
+    * [Mobile Lighthouse Results - All Pages](docs/lighthouse/lighthouse-home.png)
+
+#### All Pages - Desktop
+
+* Lighthouse
+  * When I ran the same check on the desktop version of the site I found that there wasn't much difference and this came back with a result of 78. For the same reasons as with the mobile display I chose to keep the images as the original resolutions to prevent any lack of quality for the webpages.
+    * [Desktop Lighthouse Results - All Pages](docs/lighthouse/lighthouse-desktop.png)
 
 ## Credits
 
