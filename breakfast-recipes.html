@@ -11,6 +11,7 @@
 </head>
 
 <!-- Body -->
+
 <body>
     <!-- Header -->
     <header>
@@ -24,10 +25,10 @@
         <!-- Navigation Menu -->
         <nav>
             <ul class="navigation-bar" id="navigation-bar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="breakfast-recipes.html" class="active">Breakfast</a></li>
-                <li><a href="lunch-recipes.html">Lunch</a></li>
-                <li><a href="dinner-recipes.html">Dinner</a></li>
+                <li><a href="index.html" aria-label="Go to the home page">Home</a></li>
+                <li><a href="breakfast-recipes.html" class="active" aria-label="Currently visiting the breakfast recipe page">Breakfast</a></li>
+                <li><a href="lunch-recipes.html" aria-label="Visit the lunch recipe page">Lunch</a></li>
+                <li><a href="dinner-recipes.html" aria-label="Visit the dinner recipe page" >Dinner</a></li>
             </ul>
         </nav>
     </header>
@@ -42,462 +43,461 @@
         </section>
         <!-- Main Content Container-->
         <div class="main-content" id="main-content">
-                <section class="section-one">
-                    <!-- Section Heading -->
-                    <h2>Section</h2>
-                    <!-- Section Content -->
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam reiciendis praesentium porro
-                        accusantium, veritatis dolore quos tenetur ut, debitis in ducimus earum maiores dicta similique
-                        vel
-                        temporibus facere error nisi!</p>
-                        <!-- Border for bottom of section -->
-                    <h2 class="content-bottom"></h2>
-                </section>
-                <!-- Breafast Recipe Container-->
-                <div class="breakfast-recipes">
-                    <div class="breakfast-container" id="breakfast-row">
-                        <!-- Banana Pancakes Container -->
-                        <aside class="banana-pancakes" id="recipe-item">
-                            <!-- Recipe Heading -->
-                            <h2>Banana and Banana Pancakes</h2>
-                            <!-- Meal Image -->
-                            <img src=".//assets/images/banana_pancakes_62919_16x9.jpg"
-                                alt="An image of a plate full of banana pancakes.">
-                                <!-- Image Caption -->
-                                <figcaption>Image and recipe sourced from BBC Food.</figcaption>
-                                <!-- Input Element for Expand/Hide Button -->
-                            <input type="checkbox" id="expand-checkbox-pancakes">
-                            <!-- Recipe Content -->
-                            <div class="recipe-content-pancakes">
-                                <!-- Recipe Introduction Paragraph -->
-                                <p>These quick and easy banana pancakes are dairy-free and egg-free. Mashed banana is an egg
-                                    substitute that works really well in pancakes, and makes them taste even better. They
-                                    can be ready in just 10 minutes, and wolfed down in one! Perfect for busy mornings.</p>
-                                <!-- Recipe Introduction Paragraph Continued-->
-                                <p>Each pancake (without the optional toppings) provides 119 kcal, 2.5g protein, 22g
-                                    carbohydrates
-                                    (of which 5g sugars), 2g fat (of which 1.5g saturates), 1.5g fibre and 0.22g salt.</p>
-                                    <!-- Ingredients Heading and List-->
-                                <h3>Ingredients</h3>
-                                <ul>
-                                    <li>2 bananas, peeled (approx. 160g/5oz peeled weight)</li>
-                                    <li>120g/4½oz plain flour</li>
-                                    <li>1 tsp baking powder</li>
-                                    <li>120ml/4¼fl oz oat milk (or other plant-based milk)</li>
-                                    <li>3 tsp coconut or vegetable oil</li>
-                                </ul>
-                                <h3>To serve (optional)</h3>
-                                <ul>
-                                    <li> handful blueberries</li>
-                                    <li> 1 banana, sliced</li>
-                                    <li> maple syrup (or honey if you're not vegan), to drizzle</li>
-                                    <li> dollop coconut yoghurt?</li>
-                                </ul>
-                                <!-- Instructions Heading and Directions-->
-                                <h3>Method</h3>
-                                <ol>
-                                    <li>Roughly chop the bananas and add to a blender with the flour, baking powder and
-                                        oat
-                                        milk. Blend until smooth. Alternatively, mash the banana thoroughly on a plate,
-                                        then
-                                        transfer to a bowl and whisk in the other ingredients until smooth. </li>
-                                    <li>Heat a teaspoon of the oil in a small frying pan over a medium–high heat and
-                                        spoon
-                                        the mixture into the pan to make two pancakes, each about 10cm/4in in diameter –
-                                        you
-                                        will need about a tablespoon of mixture per pancake.</li>
-                                    <li>Cook for around 2 minutes on each side, or until golden-brown, adding more oil
-                                        if
-                                        needed, then keep warm. Repeat until you have made all the pancakes. </li>
-                                    <li>To serve, divide the pancakes between two plates and top with the banana,
-                                        blueberries, maple syrup and coconut yoghurt. Enjoy while still warm. </li>
-                                </ol>
-                            </div>
-                            <!-- Label for Expand/Hide Button -->
-                            <label for="expand-checkbox-pancakes" id="expand-checkbox-label">Expand/Hide</label>
-                        </aside>
-    
-                        <!-- Bacon and Eggs Recipe Section -->
-                        <aside class="bacon-and-eggs" id="recipe-item">
-                            <!-- Recipe Title -->
-                            <h2>Fried bacon with poached egg and tomatoes</h2>
-                            <!-- Meal Image -->
-                            <img src="./assets/images/pan-fried_bacon_with_76907_16x9.jpg"
-                                alt="An image of a place with eggs and bacon on it.">
-                                <!-- Image Caption-->
-                                <figcaption>Image and recipe sourced from BBC Food.</figcaption>
-                                <!-- Input Element for Expand/Hide Button -->
-                            <input type="checkbox" id="expand-checkbox-bacon-and-eggs">
-                            <!-- Recipe Container -->
-                            <div class="recipe-content-bacon-and-eggs">
-                                <!-- Recipe Introduction Paragraph-->
-                                <p>You don’t have to give up your bacon and eggs when you’re dieting – just slightly change
-                                    the way you cook it. Choose good lean back bacon and partner it with poached eggs for
-                                    protein
-                                    and fresh nutritious veg.</p>
-                                <p>With a GI of 45 this meal is high protein, low GI and provides 264 kcal per portion.</p>
-                                <!-- Recipe Ingredients -->
-                                <h3>Ingredients</h3>
-                                <ul>
-                                    <li>1 tsp sunflower oil</li>
-                                    <li>4 rashers of rindless smoked back bacon</li>
-                                    <li>1 tsp white wine vinegar</li>
-                                    <li>2 free-range very fresh eggs (fridge cold)</li>
-                                    <li>8 cherry tomatoes, halved</li>
-                                    <li>good handful of watercress</li>
-                                    <li>drizzle of good-quality balsamic vinegar</li>
-                                    <li>freshly ground black pepper</li>
-                                </ul>
-                                <!-- Recipe Intructions -->
-                                <h3>Method</h3>
-                                <ol>
-                                    <li>Brush a large non-stick frying pan with sunflower oil, using the tip of a pastry
-                                        brush.
-                                        Place the pan over a medium heat and add the bacon. Cook for 2 minutes until lightly
-                                        browned, then turn and fry on the other side for another 3 minutes.</li>
-                                    <li>While the bacon is cooking, half fill a medium non-stick saucepan with water, add
-                                        the
-                                        vinegar and bring to the boil. Turn the heat to low, so the water is only just
-                                        bubbling.
-                                        Crack the eggs into the water, one at a time, spacing them well apart. Cook for 2½
-                                        minutes.</li>
-                                    <li>The eggs should rise to the surface within a minute. If the egg white sticks to the
-                                        bottom
-                                        of the pan, lift it gently with a wooden spoon. Alternatively, you can use a hob-top
-                                        egg
-                                        poacher, lightly greased with sunflower oil.</li>
-                                    <li>Add the tomatoes to the pan with the bacon and season with plenty of black pepper.
-                                        Cook
-                                        the
-                                        tomatoes for about a minute until just beginning to soften, turning them once.</li>
-                                    <li>Put a small pile of watercress on each plate. Put some bacon and tomatoes on the
-                                        plates
-                                        and
-                                        drizzle with a dash of balsamic vinegar. Take the eggs out of the water with a
-                                        slotted
-                                        spoon
-                                        and place them on top. Season with a little more pepper and tuck in right away while
-                                        it’s
-                                        all lovely and hot.</li>
-                                </ol>
-                            </div>
-                            <!-- Label for Expand/Hide Button -->
-                            <label for="expand-checkbox-bacon-and-eggs" id="expand-checkbox-label">Expand/Hide</label>
-                        </aside>
-    
-                        <!-- Overnight Oats Recipe Section -->
-                        <aside class="overnight-oats" id="recipe-item">
-                            <!-- Recipe Heading -->
-                            <h2>Blueberry Overnight Oats</h2>
-                            <!-- Meal Image -->
-                            <img src="./assets/images/overnight_muesli_with_57876_16x9.jpg"
-                                alt="An image of bowl containing overnight oats.">
-                                <!-- Image Caption -->
-                                <figcaption>Image and recipe sourced from BBC Food.</figcaption>
-                                <!-- Input Element for Expand/Hide Button -->
-                            <input type="checkbox" id="expand-checkbox-oats">
-                            <!-- Recipe Content Container -->
-                            <div class="recipe-content-oats">
-                                <!-- Recipe Introduction Paragraph -->
-                                <p>Prepare this blueberry and apple overnight oats recipe for a super-quick and tasty
-                                    breakfast
+            <section class="section-one">
+                <!-- Section Heading -->
+                <h2>Breakfast Recipes</h2>
+                <!-- Section Content -->
+                <p>Hello and welcome to Healthy Cooking Made Simple! In this page you find a variety of quick and easy
+                    breakfast meals to help you start your day a little bit better, and they only get easier each time
+                    you make them.</p>
+                <!-- Border for bottom of section -->
+                <h2 class="content-bottom"></h2>
+            </section>
+            <!-- Breafast Recipe Container-->
+            <div class="breakfast-recipes">
+                <div class="breakfast-container" id="breakfast-row">
+                    <!-- Banana Pancakes Container -->
+                    <aside class="banana-pancakes" id="recipe-item">
+                        <!-- Recipe Heading -->
+                        <h2>Banana and Banana Pancakes</h2>
+                        <!-- Meal Image -->
+                        <img src=".//assets/images/banana_pancakes_62919_16x9.jpg"
+                            alt="An image of a plate full of banana pancakes.">
+                        <!-- Image Caption -->
+                        <figcaption>Image and recipe sourced from BBC Food.</figcaption>
+                        <!-- Input Element for Expand/Hide Button -->
+                        <input type="checkbox" id="expand-checkbox-pancakes">
+                        <!-- Recipe Content -->
+                        <div class="recipe-content-pancakes">
+                            <!-- Recipe Introduction Paragraph -->
+                            <p>These quick and easy banana pancakes are dairy-free and egg-free. Mashed banana is an egg
+                                substitute that works really well in pancakes, and makes them taste even better. They
+                                can be ready in just 10 minutes, and wolfed down in one! Perfect for busy mornings.</p>
+                            <!-- Recipe Introduction Paragraph Continued-->
+                            <p>Each pancake (without the optional toppings) provides 119 kcal, 2.5g protein, 22g
+                                carbohydrates
+                                (of which 5g sugars), 2g fat (of which 1.5g saturates), 1.5g fibre and 0.22g salt.</p>
+                            <!-- Ingredients Heading and List-->
+                            <h3>Ingredients</h3>
+                            <ul>
+                                <li>2 bananas, peeled (approx. 160g/5oz peeled weight)</li>
+                                <li>120g/4½oz plain flour</li>
+                                <li>1 tsp baking powder</li>
+                                <li>120ml/4¼fl oz oat milk (or other plant-based milk)</li>
+                                <li>3 tsp coconut or vegetable oil</li>
+                            </ul>
+                            <h3>To serve (optional)</h3>
+                            <ul>
+                                <li> handful blueberries</li>
+                                <li> 1 banana, sliced</li>
+                                <li> maple syrup (or honey if you're not vegan), to drizzle</li>
+                                <li> dollop coconut yoghurt?</li>
+                            </ul>
+                            <!-- Instructions Heading and Directions-->
+                            <h3>Method</h3>
+                            <ol>
+                                <li>Roughly chop the bananas and add to a blender with the flour, baking powder and
+                                    oat
+                                    milk. Blend until smooth. Alternatively, mash the banana thoroughly on a plate,
+                                    then
+                                    transfer to a bowl and whisk in the other ingredients until smooth. </li>
+                                <li>Heat a teaspoon of the oil in a small frying pan over a medium–high heat and
+                                    spoon
+                                    the mixture into the pan to make two pancakes, each about 10cm/4in in diameter –
+                                    you
+                                    will need about a tablespoon of mixture per pancake.</li>
+                                <li>Cook for around 2 minutes on each side, or until golden-brown, adding more oil
+                                    if
+                                    needed, then keep warm. Repeat until you have made all the pancakes. </li>
+                                <li>To serve, divide the pancakes between two plates and top with the banana,
+                                    blueberries, maple syrup and coconut yoghurt. Enjoy while still warm. </li>
+                            </ol>
+                        </div>
+                        <!-- Label for Expand/Hide Button -->
+                        <label for="expand-checkbox-pancakes" id="expand-checkbox-label">Expand/Hide</label>
+                    </aside>
+
+                    <!-- Bacon and Eggs Recipe Section -->
+                    <aside class="bacon-and-eggs" id="recipe-item">
+                        <!-- Recipe Title -->
+                        <h2>Fried bacon with poached egg and tomatoes</h2>
+                        <!-- Meal Image -->
+                        <img src="./assets/images/pan-fried_bacon_with_76907_16x9.jpg"
+                            alt="An image of a place with eggs and bacon on it.">
+                        <!-- Image Caption-->
+                        <figcaption>Image and recipe sourced from BBC Food.</figcaption>
+                        <!-- Input Element for Expand/Hide Button -->
+                        <input type="checkbox" id="expand-checkbox-bacon-and-eggs">
+                        <!-- Recipe Container -->
+                        <div class="recipe-content-bacon-and-eggs">
+                            <!-- Recipe Introduction Paragraph-->
+                            <p>You don’t have to give up your bacon and eggs when you’re dieting – just slightly change
+                                the way you cook it. Choose good lean back bacon and partner it with poached eggs for
+                                protein
+                                and fresh nutritious veg.</p>
+                            <p>With a GI of 45 this meal is high protein, low GI and provides 264 kcal per portion.</p>
+                            <!-- Recipe Ingredients -->
+                            <h3>Ingredients</h3>
+                            <ul>
+                                <li>1 tsp sunflower oil</li>
+                                <li>4 rashers of rindless smoked back bacon</li>
+                                <li>1 tsp white wine vinegar</li>
+                                <li>2 free-range very fresh eggs (fridge cold)</li>
+                                <li>8 cherry tomatoes, halved</li>
+                                <li>good handful of watercress</li>
+                                <li>drizzle of good-quality balsamic vinegar</li>
+                                <li>freshly ground black pepper</li>
+                            </ul>
+                            <!-- Recipe Intructions -->
+                            <h3>Method</h3>
+                            <ol>
+                                <li>Brush a large non-stick frying pan with sunflower oil, using the tip of a pastry
+                                    brush.
+                                    Place the pan over a medium heat and add the bacon. Cook for 2 minutes until lightly
+                                    browned, then turn and fry on the other side for another 3 minutes.</li>
+                                <li>While the bacon is cooking, half fill a medium non-stick saucepan with water, add
                                     the
-                                    next morning.</p>
-    
-                                <p>With a GI of 46 this meal is high protein, low GI and provides 335 kcal per portion.</p>
-                                <!-- Recipe Ingredients -->
-                                <h3>Ingedients</h3>
-                                <ul>
-                                    <li>50g/1¾oz porridge oats</li>
-                                    <li>2 apples, coarsely grated</li>
-                                    <li>20g/¾oz blanched hazelnuts, roughly chopped</li>
-                                    <li>¼ tsp ground cinnamon</li>
-                                    <li>¼ tsp ground nutmeg</li>
-                                    <li>200g/7oz 0% fat Greek yoghurt</li>
-                                    <li>100ml/3½fl oz skimmed milk</li>
-                                    <li>100g/3½oz blueberries </li>
-                                    <li>10g/¼oz flaked almonds, toasted</li>
-                                </ul>
-                                <!-- Recipe Instructions -->
-                                <h3>Method</h3>
-                                <ol>
-                                    <li>In a bowl mix the oats, apples, hazelnuts, cinnamon and nutmeg. Stir in the yoghurt
-                                        and
-                                        milk, then cover the bowl and chill in the fridge for several hours or overnight.
-                                    </li>
-                                    <li>Spoon into two bowls and top with the blueberries and almonds. </li>
-                                </ol>
-                            </div>
-                            <!-- Label for Expand/Hide Button -->
-                            <label for="expand-checkbox-oats" id="expand-checkbox-label">Expand/Hide</label>
-                        </aside>
-                        <!-- Recipe Container -->
-                        <aside class="breakfast-frittata" id="recipe-item">
-                            <!-- Recipe Heading -->
-                            <h2>All-day breakfast frittata</h2>
-                            <!-- Meal Image-->
-                            <img src="./assets/images/all-day_breakfast_12416_16x9.jpg"
-                                alt="An image of plate of a breakfast frittata.">
-                                <!-- Image Caption-->
-                                <figcaption>Image and recipe sourced from BBC Food.</figcaption>
-                                <!-- Input Element for Expand/Hide Button -->
-                            <input type="checkbox" id="expand-checkbox-frittata">
-                            <!-- Recipe Content Container -->
-                            <div class="recipe-content-frittata">
-                                <!-- Recipe Introduction Paragraph -->
-                                <p>We’ve packed loads of extra veggies into this easy frittata so you can get the jump on
-                                    your
-                                    5-a-day from the get go. But it’s also great cold in a sandwich.</p>
-    
-                                <p>Each serving provides 290 kcal, 24g protein, 11g carbohydrate (of which 3g sugars), 16g
-                                    fat
-                                    (of which 5g saturates), 3g fibre and 1.4g salt.</p>
-                                    <!-- Ingredients Section -->
-                                <h3>Ingredients</h3>
-                                <ul>
-                                    <li>2 rashers back bacon, all visible fat removed</li>
-                                    <li>spray oil, for frying</li>
-                                    <li>125g/4½oz mushrooms, thinly sliced</li>
-                                    <li>75g/2½oz spinach</li>
-                                    <li>100g/3½oz boiled potatoes (or leftover baked potatoes) cut into rough chunks</li>
-                                    <li>100g/3½oz cherry tomatoes, halved</li>
-                                    <li>4 medium free-range eggs, beaten</li>
-                                    <li>salt and freshly ground black pepper</li>
-                                </ul>
-                                <!-- Instructions Section -->
-                                <h3>Method</h3>
-                                <ul>
-                                    <li>Preheat the grill to medium-high. Grill the bacon until it is browned on both sides.
-                                        Remove from the grill and set aside. </li>
-    
-                                    <li>Spray a small non-stick frying pan with spray oil and place on a medium-high heat.
-                                        When
-                                        the pan is hot, fry the mushrooms for 5 minutes, stirring frequently, until they are
-                                        browned and softened. Set aside.</li>
-    
-                                    <li>Rinse the spinach under cold water and drain it in a sieve. Add it to the frying pan
-                                        and
-                                        cook for 1-2 minutes, stirring all the time, so that the leaves steam in the
-                                        residual
-                                        water. When the spinach is cooked, but still bright green, transfer back to the
-                                        sieve
-                                        and press with the back of a spoon to squeeze any remaining water from the leaves.
-                                        Set
-                                        aside.</li>
-    
-                                    <li>Wipe the frying pan clean, spray with oil and return to a medium heat. Fry the
-                                        potatoes
-                                        and tomatoes without stirring too much, so that the vegetables take on some colour
-                                        but
-                                        don’t fall apart – about 5 minutes.</li>
-    
-                                    <li>Meanwhile, beat the eggs in a fairly large bowl. Chop the cooked bacon and the
-                                        spinach.
-                                        Add to the eggs along with the cooked mushrooms. Season the eggs with salt and
-                                        freshly
-                                        ground black pepper. </li>
-    
-                                    <li>When the tomatoes and potatoes are golden-brown in places, spoon them into the eggs
-                                        with
-                                        the other vegetables. Give the egg mixture a brief stir, then pour it back into the
-                                        frying pan and place it back over the heat. Cook gently over a medium heat for 10
-                                        minutes, until the egg looks set around the edges (it may be a little runny on the
-                                        top).
-                                    </li>
-    
-                                    <li>Place the pan under the grill for 2 minutes to finish cooking the frittata on top.
-                                        Turn
-                                        out the frittata onto a plate and let it cool slightly before cutting into wedges.
-                                        Serve
-                                        with a crunchy salad for maximum veggies.</li>
-                                </ul>
-                            </div>
-                            <!-- Label for Expand/Hide Button -->
-                            <label for="expand-checkbox-frittata" id="expand-checkbox-label">Expand/Hide</label>
-                        </aside>
-    
-                        <!-- Recipe Container -->
-                        <aside class="blueberry-ricotta" id="recipe-item">
-                            <!-- Recipe Heading -->
-                            <h2>Blueberry Ricotta Pot</h2>
-                            <!-- Meal Image -->
-                            <img src="./assets/images/ricotta_pots_with_13643_16x9.jpg"
-                                alt="An image of blueberry ricotta pot.">
-                                <!-- Image Caption -->
-                                <figcaption>Image and recipe sourced from BBC Food.</figcaption>
-                                <!-- Input Element for Expand/Hide Button -->
-                            <input type="checkbox" id="expand-checkbox-ricotta">
-                            <!-- Recipe Content Section -->
-                            <div class="recipe-content-ricotta">
-                                <!-- Introduction Paragraph -->
-                                <p>Ricotta is eaten for breakfast in Italy and also works well as a snack. Cinnamon adds
-                                    sweetness
-                                    without sugar and blueberries are a relatively low-sugar fruit. Honey tastes sweeter
-                                    than
-                                    sugar
-                                    and you need just a spoonful. Briefly dip your teaspoon in very hot water to help it
-                                    slip
-                                    off
-                                    easily.</p>
-    
-                                <p>Each serving provides 211 kcal, 10g protein, 16.5g carbohydrates (of which 16.5g
-                                    sugars),
-                                    11g
-                                    fat
-                                    (of which 7g saturates), 2g fibre and 0.3g salt. </p>
-                                    <!-- Ingredients Section -->
-                                <h3>Ingredients</h3>
-                                <ul>
-                                    <li>200g/7oz ricotta</li>
-                                    <li>pinch ground cinnamon</li>
-                                    <li>2 tsp runny honey</li>
-                                    <li>200g/7oz blueberries</li>
-                                </ul>
-                                <!-- Instructions Section -->
-                                <h3>Method</h3>
-                                <ol>
-                                    <li>Mix the ricotta with the cinnamon and half the honey in a bowl. Gently stir in
-                                        most
-                                        of
-                                        the blueberries. Divide the mixture between two ramekins or small bowls. </li>
-                                    <li>Top with the remaining blueberries and keep in the fridge, covered, until ready
-                                        to
-                                        eat.
-                                        Drizzle over the remaining honey just before serving.</li>
-                                </ol>
-                            </div>
-                            <!-- Label for Expand/Hide Button -->
-                            <label for="expand-checkbox-ricotta" id="expand-checkbox-label">Expand/Hide</label>
-                        </aside>
-    
-                        <!-- Recipe Container -->
-                        <aside class="breakfast-quesadillas" id="recipe-item">
-                            <!-- Recipe Heading -->
-                            <h2>Breakfast Quesadillas (V)</h2>
-                            <!-- Meal Image -->
-                            <img src="./assets/images/breakfast_quesadillas_82028_16x9.jpg"
-                                alt="An image of a breakfast quesadilla on a cutting board.">
-                                <!-- Image Caption -->
-                                <figcaption>Image and recipe sourced from BBC Food.</figcaption>
-                                <!-- Input Element for Expand/Hide Button -->
-                            <input type="checkbox" id="expand-checkbox-quesadilla">
-                            <!-- Recipe Content -->
-                            <div class="recipe-content-quesadilla">
-                                <!-- Introduction Paragraph for Recipe -->
-                                <p>For a leisurely weekend brunch or a light meal any day of the week, these breakfast
-                                    quesadillas
-                                    are filled with bacon and scrambled eggs and served with colourful salsas, guacamole and
-                                    refried
-                                    beans.</p>
-                                    <!-- Ingredients Section -->
-                                <h3>Ingredients</h3>
-                                <ol>
-                                    <li>unsalted butter, for cooking </li>
-                                    <li>6 rashers unsmoked bacon, chopped </li>
-                                    <li>6 large free-range eggs</li>
-                                    <li>splash milk</li>
-                                    <li>4 flour tortillas</li>
-                                    <li>½ small red onion, finely chopped</li>
-                                    <li>4 tbsp cheddar or Monterey Jack cheese, grated</li>
-                                    <li>small handful chopped fresh coriander</li>
-                                    <li>cayenne pepper</li>
-                                </ol>
-                                <!-- Ingredients Section Continued -->
-                                <h3>For the tomato salsa</h3>
-                                <ul>
-                                    <li>150g/5½oz small cherry tomatoes, chopped</li>
-                                    <li>½ red onion, finely chopped</li>
-                                    <li>1–2 tsp finely chopped hot green jalapeño chillies (from a jar)</li>
-                                    <li>1 tbsp honey</li>
-                                    <li>1 lime, juice only</li>
-                                    <li>pinch cayenne pepper</li>
-                                    <li>¼ tsp salt</li>
-                                    <li>pinch freshly ground black pepper</li>
-                                    <li>4 tbsp chopped fresh coriander</li>
-                                </ul>
-                                <!-- Ingredients Section Continued -->
-                                <h3>For the mango salsa</h3>
-                                <ul>
-                                    <li>1 ripe mango, peeled, stone removed, finely chopped</li>
-                                    <li>½ red onion, finely chopped</li>
-                                    <li>1–2 tsp finely chopped hot green jalapeño chillies (from a jar)</li>
-                                    <li>1 lime, juice only</li>
-                                    <li>pinch cayenne pepper</li>
-                                    <li>¼ tsp salt</li>
-                                    <li>pinch freshly ground black pepper</li>
-                                    <li>4 tbsp chopped fresh coriander</li>
-                                </ul>
-                                <!-- Ingredients Section Continued -->
-                                <h3>To serve</h3>
-                                <ul>
-                                    <li>4 tbsp soured cream</li>
-                                    <li>guacamole</li>
-                                    <li>refried beans</li>
-                                </ul>
-                                <!-- Intructions Section -->
-                                <h3>Method</h3>
-                                <ol>
-                                    <li>First make the salsas. For the tomato salsa, put the tomatoes in a bowl. Mix in the
-                                        onion
-                                        and jalapeños. Add the honey, lime juice, cayenne pepper, salt and pepper and mix
-                                        well.
-                                        Add
-                                        the coriander and set aside for 30 minutes. </li>
-    
-                                    <li>Make the mango salsa in the same way, in a separate bowl.</li>
-    
-                                    <li>Preheat the oven to 180C/160C Fan/Gas 4. Lightly grease a large baking sheet.</li>
-    
-                                    <li>Heat a frying pan over a high heat and add a knob of butter. Cook the bacon for a
-                                        few
-                                        minutes until crisp. Remove from the heat and leave to cool a little. </li>
-    
-                                    <li>Whisk the eggs together with salt and pepper and a splash of milk. Melt a large knob
-                                        of
-                                        butter in a non-stick saucepan. Add the eggs and cook over a low heat, stirring
-                                        until
-                                        the
-                                        eggs are softly scrambled. Remove from the heat.</li>
-    
-                                    <li>To assemble, melt a little more butter. Lay the tortillas on a board and lightly
-                                        brush
-                                        with
-                                        the melted butter. Place a quarter of the bacon on one half of each tortilla. Top
-                                        with
-                                        the
-                                        scrambled egg, and a couple of tablespoons of tomato salsa. Sprinkle on some chopped
-                                        red
-                                        onion, grated cheese and a little chopped coriander; don’t overfill.</li>
-    
-                                    <li>Fold over the tortilla to make a semicircle shape, brush the top with more melted
-                                        butter
-                                        and
-                                        sprinkle over a pinch of cayenne pepper. Cut each tortilla in half and carefully
-                                        place
-                                        on
-                                        the baking sheet. </li>
-    
-                                    <li>Bake for 10 minutes. Leave to cool slightly and serve with the mango salsa, soured
-                                        cream,
-                                        guacamole, refried beans and any remaining tomato salsa. </li>
-                                </ol>
-                            </div>
-                            <!-- Label for Expand/Hide Button -->
-                            <label for="expand-checkbox-quesadilla" id="expand-checkbox-label">Expand/Hide</label>
-                        </aside>
-                    </div>
+                                    vinegar and bring to the boil. Turn the heat to low, so the water is only just
+                                    bubbling.
+                                    Crack the eggs into the water, one at a time, spacing them well apart. Cook for 2½
+                                    minutes.</li>
+                                <li>The eggs should rise to the surface within a minute. If the egg white sticks to the
+                                    bottom
+                                    of the pan, lift it gently with a wooden spoon. Alternatively, you can use a hob-top
+                                    egg
+                                    poacher, lightly greased with sunflower oil.</li>
+                                <li>Add the tomatoes to the pan with the bacon and season with plenty of black pepper.
+                                    Cook
+                                    the
+                                    tomatoes for about a minute until just beginning to soften, turning them once.</li>
+                                <li>Put a small pile of watercress on each plate. Put some bacon and tomatoes on the
+                                    plates
+                                    and
+                                    drizzle with a dash of balsamic vinegar. Take the eggs out of the water with a
+                                    slotted
+                                    spoon
+                                    and place them on top. Season with a little more pepper and tuck in right away while
+                                    it’s
+                                    all lovely and hot.</li>
+                            </ol>
+                        </div>
+                        <!-- Label for Expand/Hide Button -->
+                        <label for="expand-checkbox-bacon-and-eggs" id="expand-checkbox-label">Expand/Hide</label>
+                    </aside>
+
+                    <!-- Overnight Oats Recipe Section -->
+                    <aside class="overnight-oats" id="recipe-item">
+                        <!-- Recipe Heading -->
+                        <h2>Blueberry Overnight Oats</h2>
+                        <!-- Meal Image -->
+                        <img src="./assets/images/overnight_muesli_with_57876_16x9.jpg"
+                            alt="An image of bowl containing overnight oats.">
+                        <!-- Image Caption -->
+                        <figcaption>Image and recipe sourced from BBC Food.</figcaption>
+                        <!-- Input Element for Expand/Hide Button -->
+                        <input type="checkbox" id="expand-checkbox-oats">
+                        <!-- Recipe Content Container -->
+                        <div class="recipe-content-oats">
+                            <!-- Recipe Introduction Paragraph -->
+                            <p>Prepare this blueberry and apple overnight oats recipe for a super-quick and tasty
+                                breakfast
+                                the
+                                next morning.</p>
+
+                            <p>With a GI of 46 this meal is high protein, low GI and provides 335 kcal per portion.</p>
+                            <!-- Recipe Ingredients -->
+                            <h3>Ingedients</h3>
+                            <ul>
+                                <li>50g/1¾oz porridge oats</li>
+                                <li>2 apples, coarsely grated</li>
+                                <li>20g/¾oz blanched hazelnuts, roughly chopped</li>
+                                <li>¼ tsp ground cinnamon</li>
+                                <li>¼ tsp ground nutmeg</li>
+                                <li>200g/7oz 0% fat Greek yoghurt</li>
+                                <li>100ml/3½fl oz skimmed milk</li>
+                                <li>100g/3½oz blueberries </li>
+                                <li>10g/¼oz flaked almonds, toasted</li>
+                            </ul>
+                            <!-- Recipe Instructions -->
+                            <h3>Method</h3>
+                            <ol>
+                                <li>In a bowl mix the oats, apples, hazelnuts, cinnamon and nutmeg. Stir in the yoghurt
+                                    and
+                                    milk, then cover the bowl and chill in the fridge for several hours or overnight.
+                                </li>
+                                <li>Spoon into two bowls and top with the blueberries and almonds. </li>
+                            </ol>
+                        </div>
+                        <!-- Label for Expand/Hide Button -->
+                        <label for="expand-checkbox-oats" id="expand-checkbox-label">Expand/Hide</label>
+                    </aside>
+                    <!-- Recipe Container -->
+                    <aside class="breakfast-frittata" id="recipe-item">
+                        <!-- Recipe Heading -->
+                        <h2>All-day breakfast frittata</h2>
+                        <!-- Meal Image-->
+                        <img src="./assets/images/all-day_breakfast_12416_16x9.jpg"
+                            alt="An image of plate of a breakfast frittata.">
+                        <!-- Image Caption-->
+                        <figcaption>Image and recipe sourced from BBC Food.</figcaption>
+                        <!-- Input Element for Expand/Hide Button -->
+                        <input type="checkbox" id="expand-checkbox-frittata">
+                        <!-- Recipe Content Container -->
+                        <div class="recipe-content-frittata">
+                            <!-- Recipe Introduction Paragraph -->
+                            <p>We’ve packed loads of extra veggies into this easy frittata so you can get the jump on
+                                your
+                                5-a-day from the get go. But it’s also great cold in a sandwich.</p>
+
+                            <p>Each serving provides 290 kcal, 24g protein, 11g carbohydrate (of which 3g sugars), 16g
+                                fat
+                                (of which 5g saturates), 3g fibre and 1.4g salt.</p>
+                            <!-- Ingredients Section -->
+                            <h3>Ingredients</h3>
+                            <ul>
+                                <li>2 rashers back bacon, all visible fat removed</li>
+                                <li>spray oil, for frying</li>
+                                <li>125g/4½oz mushrooms, thinly sliced</li>
+                                <li>75g/2½oz spinach</li>
+                                <li>100g/3½oz boiled potatoes (or leftover baked potatoes) cut into rough chunks</li>
+                                <li>100g/3½oz cherry tomatoes, halved</li>
+                                <li>4 medium free-range eggs, beaten</li>
+                                <li>salt and freshly ground black pepper</li>
+                            </ul>
+                            <!-- Instructions Section -->
+                            <h3>Method</h3>
+                            <ul>
+                                <li>Preheat the grill to medium-high. Grill the bacon until it is browned on both sides.
+                                    Remove from the grill and set aside. </li>
+
+                                <li>Spray a small non-stick frying pan with spray oil and place on a medium-high heat.
+                                    When
+                                    the pan is hot, fry the mushrooms for 5 minutes, stirring frequently, until they are
+                                    browned and softened. Set aside.</li>
+
+                                <li>Rinse the spinach under cold water and drain it in a sieve. Add it to the frying pan
+                                    and
+                                    cook for 1-2 minutes, stirring all the time, so that the leaves steam in the
+                                    residual
+                                    water. When the spinach is cooked, but still bright green, transfer back to the
+                                    sieve
+                                    and press with the back of a spoon to squeeze any remaining water from the leaves.
+                                    Set
+                                    aside.</li>
+
+                                <li>Wipe the frying pan clean, spray with oil and return to a medium heat. Fry the
+                                    potatoes
+                                    and tomatoes without stirring too much, so that the vegetables take on some colour
+                                    but
+                                    don’t fall apart – about 5 minutes.</li>
+
+                                <li>Meanwhile, beat the eggs in a fairly large bowl. Chop the cooked bacon and the
+                                    spinach.
+                                    Add to the eggs along with the cooked mushrooms. Season the eggs with salt and
+                                    freshly
+                                    ground black pepper. </li>
+
+                                <li>When the tomatoes and potatoes are golden-brown in places, spoon them into the eggs
+                                    with
+                                    the other vegetables. Give the egg mixture a brief stir, then pour it back into the
+                                    frying pan and place it back over the heat. Cook gently over a medium heat for 10
+                                    minutes, until the egg looks set around the edges (it may be a little runny on the
+                                    top).
+                                </li>
+
+                                <li>Place the pan under the grill for 2 minutes to finish cooking the frittata on top.
+                                    Turn
+                                    out the frittata onto a plate and let it cool slightly before cutting into wedges.
+                                    Serve
+                                    with a crunchy salad for maximum veggies.</li>
+                            </ul>
+                        </div>
+                        <!-- Label for Expand/Hide Button -->
+                        <label for="expand-checkbox-frittata" id="expand-checkbox-label">Expand/Hide</label>
+                    </aside>
+
+                    <!-- Recipe Container -->
+                    <aside class="blueberry-ricotta" id="recipe-item">
+                        <!-- Recipe Heading -->
+                        <h2>Blueberry Ricotta Pot</h2>
+                        <!-- Meal Image -->
+                        <img src="./assets/images/ricotta_pots_with_13643_16x9.jpg"
+                            alt="An image of blueberry ricotta pot.">
+                        <!-- Image Caption -->
+                        <figcaption>Image and recipe sourced from BBC Food.</figcaption>
+                        <!-- Input Element for Expand/Hide Button -->
+                        <input type="checkbox" id="expand-checkbox-ricotta">
+                        <!-- Recipe Content Section -->
+                        <div class="recipe-content-ricotta">
+                            <!-- Introduction Paragraph -->
+                            <p>Ricotta is eaten for breakfast in Italy and also works well as a snack. Cinnamon adds
+                                sweetness
+                                without sugar and blueberries are a relatively low-sugar fruit. Honey tastes sweeter
+                                than
+                                sugar
+                                and you need just a spoonful. Briefly dip your teaspoon in very hot water to help it
+                                slip
+                                off
+                                easily.</p>
+
+                            <p>Each serving provides 211 kcal, 10g protein, 16.5g carbohydrates (of which 16.5g
+                                sugars),
+                                11g
+                                fat
+                                (of which 7g saturates), 2g fibre and 0.3g salt. </p>
+                            <!-- Ingredients Section -->
+                            <h3>Ingredients</h3>
+                            <ul>
+                                <li>200g/7oz ricotta</li>
+                                <li>pinch ground cinnamon</li>
+                                <li>2 tsp runny honey</li>
+                                <li>200g/7oz blueberries</li>
+                            </ul>
+                            <!-- Instructions Section -->
+                            <h3>Method</h3>
+                            <ol>
+                                <li>Mix the ricotta with the cinnamon and half the honey in a bowl. Gently stir in
+                                    most
+                                    of
+                                    the blueberries. Divide the mixture between two ramekins or small bowls. </li>
+                                <li>Top with the remaining blueberries and keep in the fridge, covered, until ready
+                                    to
+                                    eat.
+                                    Drizzle over the remaining honey just before serving.</li>
+                            </ol>
+                        </div>
+                        <!-- Label for Expand/Hide Button -->
+                        <label for="expand-checkbox-ricotta" id="expand-checkbox-label">Expand/Hide</label>
+                    </aside>
+
+                    <!-- Recipe Container -->
+                    <aside class="breakfast-quesadillas" id="recipe-item">
+                        <!-- Recipe Heading -->
+                        <h2>Breakfast Quesadillas (V)</h2>
+                        <!-- Meal Image -->
+                        <img src="./assets/images/breakfast_quesadillas_82028_16x9.jpg"
+                            alt="An image of a breakfast quesadilla on a cutting board.">
+                        <!-- Image Caption -->
+                        <figcaption>Image and recipe sourced from BBC Food.</figcaption>
+                        <!-- Input Element for Expand/Hide Button -->
+                        <input type="checkbox" id="expand-checkbox-quesadilla">
+                        <!-- Recipe Content -->
+                        <div class="recipe-content-quesadilla">
+                            <!-- Introduction Paragraph for Recipe -->
+                            <p>For a leisurely weekend brunch or a light meal any day of the week, these breakfast
+                                quesadillas
+                                are filled with bacon and scrambled eggs and served with colourful salsas, guacamole and
+                                refried
+                                beans.</p>
+                            <!-- Ingredients Section -->
+                            <h3>Ingredients</h3>
+                            <ol>
+                                <li>unsalted butter, for cooking </li>
+                                <li>6 rashers unsmoked bacon, chopped </li>
+                                <li>6 large free-range eggs</li>
+                                <li>splash milk</li>
+                                <li>4 flour tortillas</li>
+                                <li>½ small red onion, finely chopped</li>
+                                <li>4 tbsp cheddar or Monterey Jack cheese, grated</li>
+                                <li>small handful chopped fresh coriander</li>
+                                <li>cayenne pepper</li>
+                            </ol>
+                            <!-- Ingredients Section Continued -->
+                            <h3>For the tomato salsa</h3>
+                            <ul>
+                                <li>150g/5½oz small cherry tomatoes, chopped</li>
+                                <li>½ red onion, finely chopped</li>
+                                <li>1–2 tsp finely chopped hot green jalapeño chillies (from a jar)</li>
+                                <li>1 tbsp honey</li>
+                                <li>1 lime, juice only</li>
+                                <li>pinch cayenne pepper</li>
+                                <li>¼ tsp salt</li>
+                                <li>pinch freshly ground black pepper</li>
+                                <li>4 tbsp chopped fresh coriander</li>
+                            </ul>
+                            <!-- Ingredients Section Continued -->
+                            <h3>For the mango salsa</h3>
+                            <ul>
+                                <li>1 ripe mango, peeled, stone removed, finely chopped</li>
+                                <li>½ red onion, finely chopped</li>
+                                <li>1–2 tsp finely chopped hot green jalapeño chillies (from a jar)</li>
+                                <li>1 lime, juice only</li>
+                                <li>pinch cayenne pepper</li>
+                                <li>¼ tsp salt</li>
+                                <li>pinch freshly ground black pepper</li>
+                                <li>4 tbsp chopped fresh coriander</li>
+                            </ul>
+                            <!-- Ingredients Section Continued -->
+                            <h3>To serve</h3>
+                            <ul>
+                                <li>4 tbsp soured cream</li>
+                                <li>guacamole</li>
+                                <li>refried beans</li>
+                            </ul>
+                            <!-- Intructions Section -->
+                            <h3>Method</h3>
+                            <ol>
+                                <li>First make the salsas. For the tomato salsa, put the tomatoes in a bowl. Mix in the
+                                    onion
+                                    and jalapeños. Add the honey, lime juice, cayenne pepper, salt and pepper and mix
+                                    well.
+                                    Add
+                                    the coriander and set aside for 30 minutes. </li>
+
+                                <li>Make the mango salsa in the same way, in a separate bowl.</li>
+
+                                <li>Preheat the oven to 180C/160C Fan/Gas 4. Lightly grease a large baking sheet.</li>
+
+                                <li>Heat a frying pan over a high heat and add a knob of butter. Cook the bacon for a
+                                    few
+                                    minutes until crisp. Remove from the heat and leave to cool a little. </li>
+
+                                <li>Whisk the eggs together with salt and pepper and a splash of milk. Melt a large knob
+                                    of
+                                    butter in a non-stick saucepan. Add the eggs and cook over a low heat, stirring
+                                    until
+                                    the
+                                    eggs are softly scrambled. Remove from the heat.</li>
+
+                                <li>To assemble, melt a little more butter. Lay the tortillas on a board and lightly
+                                    brush
+                                    with
+                                    the melted butter. Place a quarter of the bacon on one half of each tortilla. Top
+                                    with
+                                    the
+                                    scrambled egg, and a couple of tablespoons of tomato salsa. Sprinkle on some chopped
+                                    red
+                                    onion, grated cheese and a little chopped coriander; don’t overfill.</li>
+
+                                <li>Fold over the tortilla to make a semicircle shape, brush the top with more melted
+                                    butter
+                                    and
+                                    sprinkle over a pinch of cayenne pepper. Cut each tortilla in half and carefully
+                                    place
+                                    on
+                                    the baking sheet. </li>
+
+                                <li>Bake for 10 minutes. Leave to cool slightly and serve with the mango salsa, soured
+                                    cream,
+                                    guacamole, refried beans and any remaining tomato salsa. </li>
+                            </ol>
+                        </div>
+                        <!-- Label for Expand/Hide Button -->
+                        <label for="expand-checkbox-quesadilla" id="expand-checkbox-label">Expand/Hide</label>
+                    </aside>
                 </div>
+            </div>
         </div>
     </main>
     <!-- Footer -->
     <footer>
         <!-- Social Media Links -->
         <ul id="social-media-links">
-            <li class="social-media"><a href="https://www.instagram.com" target="_blank"><i
+            <li class="social-media"><a href="https://www.instagram.com" target="_blank" aria-label="Visit our instagram page - opens in a new tab"><i
                         class="fa-brands fa-instagram"></i></a></li>
-            <li class="social-media"><a href="https://www.twitter.com" target="_blank"><i
+            <li class="social-media"><a href="https://www.twitter.com" target="_blank" aria-label="Visit our twitter page - opens in a new tab"><i
                         class="fa-brands fa-x-twitter"></i></a></li>
-            <li class="social-media"><a href="https://www.facebook.com" target="_blank"><i
+            <li class="social-media"><a href="https://www.facebook.com" target="_blank" aria-label="Visit our facebook page - opens in a new tab"><i
                         class="fa-brands fa-facebook"></i></a></li>
         </ul>
     </footer>
