@@ -97,7 +97,7 @@ Like with the fonts I didn't want to have too many colours in my project as I th
 
   * Every page will have the same format and I started this by incorporating a navigation menu which will include the links to the other pages in my project.
 
-* [Navigation Menu for Mobiles - Image](docs/navigation/mobile-nav.png)
+* [Navigation Menu for Mobiles - Image](docs/features/navigation/mobile-nav.png)
 
   * For the navigation menu I decided to make this as responsive as I could due to the limited screen size and to prevent things from looking too cluttered. I started doing this by including a hamburger dropdown menu for smaller devices and positioning it on the far right of the screen.
 
@@ -109,15 +109,15 @@ Like with the fonts I didn't want to have too many colours in my project as I th
 
   * I also adding some styling to the links for when they're hovered over, this was only a simple change and I did this by providing a bottom border to the link the user was hovering over in a contrasting white colour.
 
-* [Navigation Menu for Tablets - Image](docs/navigation/tablet-nav.png)
+* [Navigation Menu for Tablets - Image](docs/features/navigation/tablet-nav.png)
 
-* [Navigation Menu for Laptops - Image](docs/navigation/laptop-nav.png)
+* [Navigation Menu for Laptops - Image](docs/features/navigation/laptop-nav.png)
 
 * When it came to the styling for the navigation menu on tablet and laptop size screens I decided to remove the hamburger icon and display the page links as we've got more space on these displays.
 
   * This was done by displaying the navigation toggle on the tablet breakpoint as 'none'.
 
-* [Navigation Menu for Desktops - Image](docs/navigation/desktop-nav.png)
+* [Navigation Menu for Desktops - Image](docs/features/navigation/desktop-nav.png)
 
 * For styling the navigation menu for desktop screens I decided to have this displayed on the left hand side of the screen so it could easily be differentiated from the way it was displayed on tablets and laptops.
 
@@ -126,10 +126,10 @@ Like with the fonts I didn't want to have too many colours in my project as I th
 
   * The only information provided on the footer is the links to our social media pages and I added these through the use of an unordered list.
 
-  * [Mobile Footer - Image](docs/footer/mobile-footer.png)
-  * [Tablet Footer - Image](docs/footer/tablet%20-%20footer.png)
-  * [Laptop Footer - Image](docs/footer/laptop-footer.png)
-  * [Desktop Footer - Image](docs/footer/desktop-footer.png)
+  * [Mobile Footer - Image](docs/features/footer/mobile-footer.png)
+  * [Tablet Footer - Image](docs/features/footer/tablet-footer.png)
+  * [Laptop Footer - Image](docs/features/footer/laptop-footer.png)
+  * [Desktop Footer - Image](docs/features/footer/desktop-footer.png)
 
 * Page Layout
   * The layout of the page depends on the screen size you're viewing it on. Because I wanted to make the site as adaptable as possible I made it so the layout would change for each device type you view it on.
@@ -140,17 +140,49 @@ Like with the fonts I didn't want to have too many colours in my project as I th
 
   * I also adjusted the margin and padding size on the different breakpoints so that there would be more free space depending on the device the user was viewing the website on.
 
-  * [Page Layout for Mobile - Image](docs/layout/mobile-layout.png)
-  * [Page Layout for Tablet - Image](docs/layout/tablet-layout.png)
-  * [Page Layout for Laptop - Image](docs/layout/laptop-layout.png)
-  * [Page Layout for Desktop - Image](docs/layout/desktop-layout.png)
+  * [Page Layout for Mobile - Image](docs/features/layout/mobile-layout.png)
+  * [Page Layout for Tablet - Image](docs/features/layout/tablet-layout.png)
+  * [Page Layout for Laptop - Image](docs/features/layout/laptop-layout.png)
+  * [Page Layout for Desktop - Image](docs/features/layout/desktop-layout.png)
 
 * Home
-* Breakfast Recipe Page
-* Lunch Recipe Page
-* Dinner Recipe Page
+  * On the homepage we have a hero image welcoming the user to the website and on top of the image you can find some cover text explaining what this page is for.
+
+    * [Home Hero Image](docs/features/home/home-hero.png)
+
+  * I also 4 different sections and a header above these.
+    * The first section is providing the user with the essentials they should have in their kitchen.
+      * [Essentials Section](docs/features/home/essentials.png)
+    * The second section is an image of some pots and pans which I thought fit in with the theme of the webpage.
+      * [Pots and Pans Image](docs/features/home/pots-and-pans.png)
+    * The third section was used to provide the user with a tip before following these recipes.
+      * [Top Tip Section](docs/features/home/top-tip.png)
+    * And the final section was used to enable the user to sign up to our newsletter.
+      * I chose to display the newletter form with an expand/hide button to prevent taking up unneccesary space if the user wasn't interested in signing up to this.
+      * I was able to do this by wrapping the content in a checkbox input element and hiding this unless it was checked.
+        * [Unchecked Sign Up Form](docs/features/sign-up/unchecked-sign-up.png)
+        * [Checked Sign Up Form](docs/features/sign-up/checked-sign-up.png)
+
+* Recipe Pages
+  * For the recipe pages I kept this very simple as I didn't want the user to get distracted by a flashy background.
+  * However, I did want some colour on the page so I decided to include another hero image based on the meal type with a heading centered in the image.
+    * [Recipe Pages Hero Image](docs/features/recipe-pages/recipe-hero-image.png)
+
+  * I decided to include a short paragraph to open the page with which would give the user an idea of what the page was for.
+    * [Introduction Paragraph](docs/features/recipe-pages/introduction-paragraph.png)
+
+  * Like with the newsletter form I used an expand/hide button to keep the actual recipe hidden unless the user wanter to see this.
+  * I was able to do this by wrapping the content in a checkbox input element and hiding this unless it was checked.
+    * [Recipe Content Hidden](docs/features/recipe-pages/recipe-image.png)
+    * [Recipe Content Expanded](docs/features/recipe-pages/recipe-image-expand.png)
 
 ### Accessibility
+
+* One of my main goals was to make this website as accessible as possible and I did this by:
+  * Using semantic selectors in my HTML through the use of an aria-label to allow the links to be read aloud for those using screen readers.
+  * Providing the website with a fallback font for if the browser the user was using wouldn't load the page as it was initially designed.
+  * Using contrasting colours for the background, section and headings.
+  * I also made sure to provide an alt attribute to the images displayed incase these wouldn't load on the users browser.
 
 ## Technologies Used
 
@@ -197,8 +229,12 @@ This website was built using HTML and styled with CSS.
 
 ### Code
 
+* [StackOverflow - Ignore Whitespace on Newsletter Form](https://stackoverflow.com/questions/13766015/is-it-possible-to-configure-a-required-field-to-ignore-white-space)
+
 ### Content
 
 ### Media
 
 ### Acknowledgements
+
+* fhghghg.
