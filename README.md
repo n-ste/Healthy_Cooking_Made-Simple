@@ -14,17 +14,27 @@
     * [Dinner Recipes](#dinner-recipes)
   * [Accessibility](#accessability)
 
-* [Languages](#languages)
+* [Technologies Used](#technologies-used)
+  * [Languages](#languages)
+  * [Frameworks and Libraries](#frameworks-and-libraries)
 
-* [Deployment](#deployment)
+* [Deployment and Local Environment](#deployment-and-local-environment)
+  * [Deployment](#deployment)
+  * [Local Environment](#local-environment)
 
 * [Testing](#testing)
   * [Bugs](#bugs)
   * [Resolutions](#resolutions)
+  * [Known Bugs](#known-bugs)
+  * [Home Page](#home-page)
+  * [Breakfast Recipes Page](#breakfast-recipes-page)
+  * [Lunch Recipes Page](#lunch-recipes-page)
+  * [Dinner Recipes Page](#dinner-recipes-page)
 
 * [Credits](#credits)
     * [Code](#code)
     * [Content](#content)
+    * [Media](#media)
     * [Acknowledgemts](#acknowledgements)
 
 - - -
@@ -65,17 +75,61 @@ Like with the fonts I didn't want to have too many colours in my project as I th
 
 * To give myself an idea of how I'd like the website to look I produced wideframes through the use of [Balsamiq](https://www.balsamiq.com), this allowed me to visualise what I wanted the website to look like before it was created and prompted me to style it accordingly.
 
-*[Mobile Webpages](https://github.com/n-ste/Healthy_Cooking_Made-Simple/blob/main/docs/wideframes/mobile-wideframes.png)
-*[Tablet Webpages](https://github.com/n-ste/Healthy_Cooking_Made-Simple/blob/main/docs/wideframes/tablet-wideframes.png)
-*[Laptop Webpages](https://github.com/n-ste/Healthy_Cooking_Made-Simple/blob/main/docs/wideframes/laptop-wideframes.png)
-*[Desktop Webpages](https://github.com/n-ste/Healthy_Cooking_Made-Simple/blob/main/docs/wideframes/desktop-wideframes.png)
+* [Mobile Webpages](https://github.com/n-ste/Healthy_Cooking_Made-Simple/blob/main/docs/wideframes/mobile-wideframes.png)
+* [Tablet Webpages](https://github.com/n-ste/Healthy_Cooking_Made-Simple/blob/main/docs/wideframes/tablet-wideframes.png)
+* [Laptop Webpages](https://github.com/n-ste/Healthy_Cooking_Made-Simple/blob/main/docs/wideframes/laptop-wideframes.png)
+* [Desktop Webpages](https://github.com/n-ste/Healthy_Cooking_Made-Simple/blob/main/docs/wideframes/desktop-wideframes.png)
 
 ### Images
+
+* All images on my website including hero images and recipe images have been taken from [BBC Food](https://www.bbc.co.uk/food), individual images will be referenced in the credits section.
+
 ### Features
+
 ### Home
+
 ### Breakfast Recipes
+
 ### Lunch Recipes
+
 ### Dinner Recipes
-### Accessibility
+
+## Accessibility
+
+## Technologies Used
+
+### Languages
+
+### Frameworks and Libraries
+
+## Deployment and Local Enviroment
+
+### Deployment
+
+### Local Environment
+
+## Testing
+
+### Bugs
+
+### Resolutions
+
+### Known Bugs
+
+### Home Page
+
+### Breakfast Recipes Page
+
+### Lunch Recipes Page
+
+### Dinner Recipes Page
+
+## Credits
+
+### Code
+
+### Media
+
+### Acknowledgements
 
 - - -
