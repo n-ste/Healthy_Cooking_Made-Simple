@@ -22,7 +22,7 @@
   * [Deployment](#deployment)
   * [Local Development](#local-development)
     * [How to Fork](#how-to-fork)
-    *[How to Clone](#how-to-clone)
+    * [How to Clone](#how-to-clone)
 
 * [Testing](#testing)
   * [HTML Validation](#html-validation)
