@@ -208,11 +208,24 @@ This website was built using HTML and styled with CSS.
 
 ### Deployment
 
+As we're using Github to deploy the site we'll do this through pages.
+
+1. First, you'll go to [Github](https://github.com)
+2. Then you'll need to find the correct repository, for this project it will be [Healthy_Cooking_Made_Simple](https://github.com/n-ste/Healthy_Cooking_Made-Simple)
+3. You'll then go to the settings page at the top of the screen. 
+4. When on the settings page there will be a sidebar on the left of the screen, click the link that says "Pages"
+5. Now at the top of the page you'll want to select the option to "Deploy page from branch"
+6. Select the "main" branch from the"/root" file and click save.
+7. The site will now be ready to be deployed. 
+
+## Local Development
+
 ### How to Fork
 
-### How to Clone
+1. To fork the repository you'll first need to go to [Healthy_Cooking_Made_Simple](https://github.com/n-ste/Healthy_Cooking_Made-Simple)
+2. At the top of the page there will be a button that says "Fork", click on this.
 
-### Local Environment
+### How to Clone
 
 ## Testing
 
