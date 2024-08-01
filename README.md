@@ -1,4 +1,5 @@
 # Healthy Cooking Made Simple!
+
 ## Contents
 
 * [User Experience](#user-experience)
@@ -12,7 +13,7 @@
     * [Breakfast Recipes](#breakfast-recipes)
     * [Lunch Recipes](#lunch-recipes)
     * [Dinner Recipes](#dinner-recipes)
-  * [Accessibility](#accessability)
+    * [Accessibility](#accessibility)
 
 * [Technologies Used](#technologies-used)
   * [Languages](#languages)
@@ -23,6 +24,8 @@
   * [Local Environment](#local-environment)
 
 * [Testing](#testing)
+  * [HTML Validation](#html-validation)
+  * [CSS Validation](#css-validation)
   * [Bugs](#bugs)
   * [Resolutions](#resolutions)
   * [Known Bugs](#known-bugs)
@@ -32,10 +35,10 @@
   * [Dinner Recipes Page](#dinner-recipes-page)
 
 * [Credits](#credits)
-    * [Code](#code)
-    * [Content](#content)
-    * [Media](#media)
-    * [Acknowledgemts](#acknowledgements)
+  * [Code](#code)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgemts](#acknowledgements)
 
 - - -
 
@@ -94,7 +97,7 @@ Like with the fonts I didn't want to have too many colours in my project as I th
 
 ### Dinner Recipes
 
-## Accessibility
+### Accessibility
 
 ## Technologies Used
 
@@ -102,13 +105,17 @@ Like with the fonts I didn't want to have too many colours in my project as I th
 
 ### Frameworks and Libraries
 
-## Deployment and Local Enviroment
+## Deployment and Local Environment
 
 ### Deployment
 
 ### Local Environment
 
 ## Testing
+
+### HTML Validation
+
+### CSS Validation
 
 ### Bugs
 
@@ -128,8 +135,8 @@ Like with the fonts I didn't want to have too many colours in my project as I th
 
 ### Code
 
+### Content
+
 ### Media
 
 ### Acknowledgements
-
-- - -
